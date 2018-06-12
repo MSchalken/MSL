@@ -87,6 +87,11 @@
     <node concept="PrWs8" id="5kFZ$w2cwNd" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1TJgyi" id="4NDpzA$H4tn" role="1TKVEl">
+      <property role="IQ2nx" value="5542073214218553175" />
+      <property role="TrG5h" value="instrument_source" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5kFZ$w2cwNf">
     <property role="EcuMT" value="6137278502450367695" />

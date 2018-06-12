@@ -67,6 +67,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367692");
+    b.prop("instrument_source", 0x4ce96639a4b44757L, "5542073214218553175");
     b.alias("instrument");
     return b.create();
   }

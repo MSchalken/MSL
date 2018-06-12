@@ -1494,13 +1494,13 @@
             <node concept="liA8E" id="7W" role="2OqNvi">
               <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.prop(java.lang.String,long,java.lang.String):jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2" resolve="prop" />
               <node concept="Xl_RD" id="7X" role="37wK5m">
-                <property role="Xl_RC" value="instrument_ref" />
+                <property role="Xl_RC" value="instrument_source" />
               </node>
               <node concept="1adDum" id="7Y" role="37wK5m">
-                <property role="1adDun" value="0x552bfe480233ff8aL" />
+                <property role="1adDun" value="0x4ce96639a4b44757L" />
               </node>
               <node concept="Xl_RD" id="7Z" role="37wK5m">
-                <property role="Xl_RC" value="6137278502450495370" />
+                <property role="Xl_RC" value="5542073214218553175" />
               </node>
             </node>
           </node>

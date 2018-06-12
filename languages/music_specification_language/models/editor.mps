@@ -3,6 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -13,8 +15,10 @@
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
@@ -90,6 +94,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="5kFZ$w2cwRo" role="3EZMnx">
+        <property role="2czwfO" value="\n" />
         <ref role="1NtTu8" to="d1ne:5kFZ$w2cwN5" resolve="clips" />
         <node concept="2iRkQZ" id="5kFZ$w2cRyW" role="2czzBx" />
         <node concept="ljvvj" id="5kFZ$w2cwSb" role="3F10Kt">
@@ -102,6 +107,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="5kFZ$w2cwSB" role="3EZMnx">
+        <property role="2czwfO" value="\n" />
         <ref role="1NtTu8" to="d1ne:5kFZ$w2cwN3" resolve="segments" />
         <node concept="2iRkQZ" id="5kFZ$w2cRyZ" role="2czzBx" />
       </node>
@@ -156,6 +162,70 @@
         <ref role="1NtTu8" to="d1ne:5kFZ$w2cwNs" resolve="notes" />
       </node>
       <node concept="l2Vlx" id="5kFZ$w2cT6e" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4NDpzA$H4tl">
+    <ref role="1XX52x" to="d1ne:5kFZ$w2cwNc" resolve="Instrument" />
+    <node concept="3EZMnI" id="4NDpzA$H4tp" role="2wV5jI">
+      <node concept="2iRfu4" id="4NDpzA$H4tq" role="2iSdaV" />
+      <node concept="3F0ifn" id="4NDpzA$H4ty" role="3EZMnx">
+        <property role="3F0ifm" value="instrument" />
+      </node>
+      <node concept="3F0A7n" id="4NDpzA$H4tC" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="4NDpzA$H4tP" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="4NDpzA$H4tZ" role="3EZMnx">
+        <ref role="1NtTu8" to="d1ne:4NDpzA$H4tn" resolve="instrument_source" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4NDpzA$H4ud">
+    <ref role="1XX52x" to="d1ne:5kFZ$w2cwNG" resolve="segment_clip" />
+    <node concept="3EZMnI" id="4NDpzA$H4uf" role="2wV5jI">
+      <node concept="2iRfu4" id="4NDpzA$H4ug" role="2iSdaV" />
+      <node concept="1iCGBv" id="4NDpzA$H4ul" role="3EZMnx">
+        <ref role="1NtTu8" to="d1ne:5kFZ$w2cwNP" resolve="clip" />
+        <node concept="1sVBvm" id="4NDpzA$H4un" role="1sWHZn">
+          <node concept="3F0A7n" id="4NDpzA$H4uu" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4NDpzA$H4uG" role="3EZMnx">
+        <property role="3F0ifm" value="*" />
+      </node>
+      <node concept="3F0A7n" id="4NDpzA$H4uS" role="3EZMnx">
+        <ref role="1NtTu8" to="d1ne:5kFZ$w2cwNJ" resolve="multiplicity" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4NDpzA$H4v7">
+    <ref role="1XX52x" to="d1ne:5kFZ$w2cwN_" resolve="Segment" />
+    <node concept="3EZMnI" id="4NDpzA$H4v9" role="2wV5jI">
+      <node concept="l2Vlx" id="4NDpzA$H4va" role="2iSdaV" />
+      <node concept="3F0ifn" id="4NDpzA$H4vi" role="3EZMnx">
+        <property role="3F0ifm" value="segment" />
+      </node>
+      <node concept="3F0A7n" id="4NDpzA$H4vs" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="4NDpzA$H4vD" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="ljvvj" id="4NDpzA$H4vN" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="4NDpzA$H4vP" role="3EZMnx">
+        <ref role="1NtTu8" to="d1ne:5kFZ$w2cwNX" resolve="clips" />
+        <node concept="2iRkQZ" id="4NDpzA$HwJ6" role="2czzBx" />
+        <node concept="lj46D" id="4NDpzA$H4vY" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

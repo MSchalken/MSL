@@ -8,7 +8,7 @@
       <unit at="10,0,36,0" name="music_specification_language.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="14,0,102,0" name="music_specification_language.structure.StructureAspectDescriptor" />
+      <unit at="14,0,103,0" name="music_specification_language.structure.StructureAspectDescriptor" />
     </file>
   </root>
 </debug-info>
