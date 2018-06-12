@@ -10,6 +10,9 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import music_specification_language.editor.msl_style_StyleSheet.KeywordStyleClass;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
@@ -28,6 +31,7 @@ import java.util.Objects;
 import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
+import music_specification_language.editor.msl_style_StyleSheet.PunctuationStyleClass;
 
 /*package*/ class Instrument_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -62,6 +66,9 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
   private EditorCell createConstant_15v7tu_a0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "instrument");
     editorCell.setCellId("Constant_15v7tu_a0");
+    Style style = new StyleImpl();
+    new KeywordStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -95,6 +102,9 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
   private EditorCell createConstant_15v7tu_c0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ":");
     editorCell.setCellId("Constant_15v7tu_c0");
+    Style style = new StyleImpl();
+    new PunctuationStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }

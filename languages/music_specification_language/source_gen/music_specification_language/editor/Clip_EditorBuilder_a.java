@@ -10,6 +10,9 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import music_specification_language.editor.msl_style_StyleSheet.KeywordStyleClass;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
@@ -35,8 +38,7 @@ import jetbrains.mps.editor.runtime.impl.CellUtil;
 import jetbrains.mps.nodeEditor.cellMenu.SReferenceSubstituteInfo;
 import jetbrains.mps.lang.core.behavior.LinkAttribute__BehaviorDescriptor;
 import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteEasily;
-import jetbrains.mps.openapi.editor.style.Style;
-import jetbrains.mps.editor.runtime.style.StyleImpl;
+import music_specification_language.editor.msl_style_StyleSheet.PunctuationStyleClass;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 
 /*package*/ class Clip_EditorBuilder_a extends AbstractEditorBuilder {
@@ -69,14 +71,19 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
     editorCell.addEditorCell(createRefCell_e6x5zy_d0());
     editorCell.addEditorCell(createConstant_e6x5zy_e0());
     editorCell.addEditorCell(createConstant_e6x5zy_f0());
-    editorCell.addEditorCell(createProperty_e6x5zy_g0());
-    editorCell.addEditorCell(createConstant_e6x5zy_h0());
-    editorCell.addEditorCell(createProperty_e6x5zy_i0());
+    editorCell.addEditorCell(createConstant_e6x5zy_g0());
+    editorCell.addEditorCell(createProperty_e6x5zy_h0());
+    editorCell.addEditorCell(createConstant_e6x5zy_i0());
+    editorCell.addEditorCell(createConstant_e6x5zy_j0());
+    editorCell.addEditorCell(createProperty_e6x5zy_k0());
     return editorCell;
   }
   private EditorCell createConstant_e6x5zy_a0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "clip");
     editorCell.setCellId("Constant_e6x5zy_a0");
+    Style style = new StyleImpl();
+    new KeywordStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -110,6 +117,9 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
   private EditorCell createConstant_e6x5zy_c0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "for");
     editorCell.setCellId("Constant_e6x5zy_c0");
+    Style style = new StyleImpl();
+    new KeywordStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -202,21 +212,32 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ":");
     editorCell.setCellId("Constant_e6x5zy_e0");
     Style style = new StyleImpl();
+    new PunctuationStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createConstant_e6x5zy_f0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "pattern:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "pattern");
     editorCell.setCellId("Constant_e6x5zy_f0");
     Style style = new StyleImpl();
+    new KeywordStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createProperty_e6x5zy_g0() {
+  private EditorCell createConstant_e6x5zy_g0() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ":");
+    editorCell.setCellId("Constant_e6x5zy_g0");
+    Style style = new StyleImpl();
+    new PunctuationStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createProperty_e6x5zy_h0() {
     getCellFactory().pushCellContext();
     try {
       final SProperty property = MetaAdapterFactory.getProperty(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ccfL, 0x552bfe4802320cd9L, "pattern");
@@ -246,16 +267,26 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
       getCellFactory().popCellContext();
     }
   }
-  private EditorCell createConstant_e6x5zy_h0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "notes:");
-    editorCell.setCellId("Constant_e6x5zy_h0");
+  private EditorCell createConstant_e6x5zy_i0() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "notes");
+    editorCell.setCellId("Constant_e6x5zy_i0");
     Style style = new StyleImpl();
+    new KeywordStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createProperty_e6x5zy_i0() {
+  private EditorCell createConstant_e6x5zy_j0() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ":");
+    editorCell.setCellId("Constant_e6x5zy_j0");
+    Style style = new StyleImpl();
+    new PunctuationStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createProperty_e6x5zy_k0() {
     getCellFactory().pushCellContext();
     try {
       final SProperty property = MetaAdapterFactory.getProperty(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ccfL, 0x552bfe4802320cdcL, "notes");
