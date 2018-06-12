@@ -188,7 +188,7 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="false" />
-      <property role="TrG5h" value="props_Clip" />
+      <property role="TrG5h" value="props_ClipDefinition" />
       <node concept="3uibUv" id="a" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptPresentation" resolve="ConceptPresentation" />
       </node>
@@ -198,7 +198,7 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="false" />
-      <property role="TrG5h" value="props_Instrument" />
+      <property role="TrG5h" value="props_InstrumentDefinition" />
       <node concept="3uibUv" id="c" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptPresentation" resolve="ConceptPresentation" />
       </node>
@@ -218,7 +218,7 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="false" />
-      <property role="TrG5h" value="props_Segment" />
+      <property role="TrG5h" value="props_SegmentDefinition" />
       <node concept="3uibUv" id="g" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptPresentation" resolve="ConceptPresentation" />
       </node>
@@ -336,7 +336,7 @@
                         </node>
                       </node>
                       <node concept="37vLTw" id="16" role="37vLTJ">
-                        <ref role="3cqZAo" node="2" resolve="props_Clip" />
+                        <ref role="3cqZAo" node="2" resolve="props_ClipDefinition" />
                       </node>
                     </node>
                   </node>
@@ -344,19 +344,19 @@
                 <node concept="3clFbC" id="O" role="3clFbw">
                   <node concept="10Nm6u" id="19" role="3uHU7w" />
                   <node concept="37vLTw" id="1a" role="3uHU7B">
-                    <ref role="3cqZAo" node="2" resolve="props_Clip" />
+                    <ref role="3cqZAo" node="2" resolve="props_ClipDefinition" />
                   </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="M" role="3cqZAp">
                 <node concept="37vLTw" id="1b" role="3cqZAk">
-                  <ref role="3cqZAo" node="2" resolve="props_Clip" />
+                  <ref role="3cqZAo" node="2" resolve="props_ClipDefinition" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="K" role="3Kbmr1">
               <ref role="1PxDUh" node="35" resolve="LanguageConceptSwitch" />
-              <ref role="3cqZAo" node="37" resolve="Clip" />
+              <ref role="3cqZAo" node="37" resolve="ClipDefinition" />
             </node>
           </node>
           <node concept="3KbdKl" id="C" role="3KbHQx">
@@ -410,7 +410,7 @@
                         </node>
                       </node>
                       <node concept="37vLTw" id="1z" role="37vLTJ">
-                        <ref role="3cqZAo" node="3" resolve="props_Instrument" />
+                        <ref role="3cqZAo" node="3" resolve="props_InstrumentDefinition" />
                       </node>
                     </node>
                   </node>
@@ -418,19 +418,19 @@
                 <node concept="3clFbC" id="1h" role="3clFbw">
                   <node concept="10Nm6u" id="1A" role="3uHU7w" />
                   <node concept="37vLTw" id="1B" role="3uHU7B">
-                    <ref role="3cqZAo" node="3" resolve="props_Instrument" />
+                    <ref role="3cqZAo" node="3" resolve="props_InstrumentDefinition" />
                   </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="1f" role="3cqZAp">
                 <node concept="37vLTw" id="1C" role="3cqZAk">
-                  <ref role="3cqZAo" node="3" resolve="props_Instrument" />
+                  <ref role="3cqZAo" node="3" resolve="props_InstrumentDefinition" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="1d" role="3Kbmr1">
               <ref role="1PxDUh" node="35" resolve="LanguageConceptSwitch" />
-              <ref role="3cqZAo" node="38" resolve="Instrument" />
+              <ref role="3cqZAo" node="38" resolve="InstrumentDefinition" />
             </node>
           </node>
           <node concept="3KbdKl" id="D" role="3KbHQx">
@@ -545,7 +545,7 @@
                         </node>
                       </node>
                       <node concept="37vLTw" id="2o" role="37vLTJ">
-                        <ref role="3cqZAo" node="5" resolve="props_Segment" />
+                        <ref role="3cqZAo" node="5" resolve="props_SegmentDefinition" />
                       </node>
                     </node>
                   </node>
@@ -553,19 +553,19 @@
                 <node concept="3clFbC" id="26" role="3clFbw">
                   <node concept="10Nm6u" id="2r" role="3uHU7w" />
                   <node concept="37vLTw" id="2s" role="3uHU7B">
-                    <ref role="3cqZAo" node="5" resolve="props_Segment" />
+                    <ref role="3cqZAo" node="5" resolve="props_SegmentDefinition" />
                   </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="24" role="3cqZAp">
                 <node concept="37vLTw" id="2t" role="3cqZAk">
-                  <ref role="3cqZAo" node="5" resolve="props_Segment" />
+                  <ref role="3cqZAo" node="5" resolve="props_SegmentDefinition" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="22" role="3Kbmr1">
               <ref role="1PxDUh" node="35" resolve="LanguageConceptSwitch" />
-              <ref role="3cqZAo" node="3a" resolve="Segment" />
+              <ref role="3cqZAo" node="3a" resolve="SegmentDefinition" />
             </node>
           </node>
           <node concept="3KbdKl" id="F" role="3KbHQx">
@@ -703,7 +703,7 @@
       <property role="2dlcS1" value="false" />
       <property role="2dld4O" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="Clip" />
+      <property role="TrG5h" value="ClipDefinition" />
       <node concept="3Tm1VV" id="3l" role="1B3o_S" />
       <node concept="10Oyi0" id="3m" role="1tU5fm" />
       <node concept="3cmrfG" id="3n" role="33vP2m">
@@ -714,7 +714,7 @@
       <property role="2dlcS1" value="false" />
       <property role="2dld4O" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="Instrument" />
+      <property role="TrG5h" value="InstrumentDefinition" />
       <node concept="3Tm1VV" id="3o" role="1B3o_S" />
       <node concept="10Oyi0" id="3p" role="1tU5fm" />
       <node concept="3cmrfG" id="3q" role="33vP2m">
@@ -736,7 +736,7 @@
       <property role="2dlcS1" value="false" />
       <property role="2dld4O" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="Segment" />
+      <property role="TrG5h" value="SegmentDefinition" />
       <node concept="3Tm1VV" id="3u" role="1B3o_S" />
       <node concept="10Oyi0" id="3v" role="1tU5fm" />
       <node concept="3cmrfG" id="3w" role="33vP2m">
@@ -789,7 +789,7 @@
                 <property role="1adDun" value="0x552bfe4802320ccfL" />
               </node>
               <node concept="37vLTw" id="3S" role="37wK5m">
-                <ref role="3cqZAo" node="37" resolve="Clip" />
+                <ref role="3cqZAo" node="37" resolve="ClipDefinition" />
               </node>
             </node>
           </node>
@@ -805,7 +805,7 @@
                 <property role="1adDun" value="0x552bfe4802320cccL" />
               </node>
               <node concept="37vLTw" id="3X" role="37wK5m">
-                <ref role="3cqZAo" node="38" resolve="Instrument" />
+                <ref role="3cqZAo" node="38" resolve="InstrumentDefinition" />
               </node>
             </node>
           </node>
@@ -837,7 +837,7 @@
                 <property role="1adDun" value="0x552bfe4802320ce5L" />
               </node>
               <node concept="37vLTw" id="47" role="37wK5m">
-                <ref role="3cqZAo" node="3a" resolve="Segment" />
+                <ref role="3cqZAo" node="3a" resolve="SegmentDefinition" />
               </node>
             </node>
           </node>
@@ -939,24 +939,24 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="myConceptClip" />
+      <property role="TrG5h" value="myConceptClipDefinition" />
       <node concept="3uibUv" id="4W" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptDescriptor" resolve="ConceptDescriptor" />
       </node>
       <node concept="1rXfSq" id="4X" role="33vP2m">
-        <ref role="37wK5l" node="4R" resolve="createDescriptorForClip" />
+        <ref role="37wK5l" node="4R" resolve="createDescriptorForClipDefinition" />
       </node>
     </node>
     <node concept="312cEg" id="4C" role="jymVt">
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="myConceptInstrument" />
+      <property role="TrG5h" value="myConceptInstrumentDefinition" />
       <node concept="3uibUv" id="4Y" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptDescriptor" resolve="ConceptDescriptor" />
       </node>
       <node concept="1rXfSq" id="4Z" role="33vP2m">
-        <ref role="37wK5l" node="4S" resolve="createDescriptorForInstrument" />
+        <ref role="37wK5l" node="4S" resolve="createDescriptorForInstrumentDefinition" />
       </node>
     </node>
     <node concept="312cEg" id="4D" role="jymVt">
@@ -975,12 +975,12 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="myConceptSegment" />
+      <property role="TrG5h" value="myConceptSegmentDefinition" />
       <node concept="3uibUv" id="52" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~ConceptDescriptor" resolve="ConceptDescriptor" />
       </node>
       <node concept="1rXfSq" id="53" role="33vP2m">
-        <ref role="37wK5l" node="4U" resolve="createDescriptorForSegment" />
+        <ref role="37wK5l" node="4U" resolve="createDescriptorForSegmentDefinition" />
       </node>
     </node>
     <node concept="312cEg" id="4F" role="jymVt">
@@ -1035,16 +1035,16 @@
             <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
             <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...):java.util.List" resolve="asList" />
             <node concept="37vLTw" id="5m" role="37wK5m">
-              <ref role="3cqZAo" node="4B" resolve="myConceptClip" />
+              <ref role="3cqZAo" node="4B" resolve="myConceptClipDefinition" />
             </node>
             <node concept="37vLTw" id="5n" role="37wK5m">
-              <ref role="3cqZAo" node="4C" resolve="myConceptInstrument" />
+              <ref role="3cqZAo" node="4C" resolve="myConceptInstrumentDefinition" />
             </node>
             <node concept="37vLTw" id="5o" role="37wK5m">
               <ref role="3cqZAo" node="4D" resolve="myConceptMSLProgram" />
             </node>
             <node concept="37vLTw" id="5p" role="37wK5m">
-              <ref role="3cqZAo" node="4E" resolve="myConceptSegment" />
+              <ref role="3cqZAo" node="4E" resolve="myConceptSegmentDefinition" />
             </node>
             <node concept="37vLTw" id="5q" role="37wK5m">
               <ref role="3cqZAo" node="4F" resolve="myConceptsegment_clip" />
@@ -1082,26 +1082,26 @@
             <node concept="3clFbS" id="5F" role="3Kbo56">
               <node concept="3cpWs6" id="5H" role="3cqZAp">
                 <node concept="37vLTw" id="5I" role="3cqZAk">
-                  <ref role="3cqZAo" node="4B" resolve="myConceptClip" />
+                  <ref role="3cqZAo" node="4B" resolve="myConceptClipDefinition" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="5G" role="3Kbmr1">
               <ref role="1PxDUh" node="35" resolve="LanguageConceptSwitch" />
-              <ref role="3cqZAo" node="37" resolve="Clip" />
+              <ref role="3cqZAo" node="37" resolve="ClipDefinition" />
             </node>
           </node>
           <node concept="3KbdKl" id="5_" role="3KbHQx">
             <node concept="3clFbS" id="5J" role="3Kbo56">
               <node concept="3cpWs6" id="5L" role="3cqZAp">
                 <node concept="37vLTw" id="5M" role="3cqZAk">
-                  <ref role="3cqZAo" node="4C" resolve="myConceptInstrument" />
+                  <ref role="3cqZAo" node="4C" resolve="myConceptInstrumentDefinition" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="5K" role="3Kbmr1">
               <ref role="1PxDUh" node="35" resolve="LanguageConceptSwitch" />
-              <ref role="3cqZAo" node="38" resolve="Instrument" />
+              <ref role="3cqZAo" node="38" resolve="InstrumentDefinition" />
             </node>
           </node>
           <node concept="3KbdKl" id="5A" role="3KbHQx">
@@ -1121,13 +1121,13 @@
             <node concept="3clFbS" id="5R" role="3Kbo56">
               <node concept="3cpWs6" id="5T" role="3cqZAp">
                 <node concept="37vLTw" id="5U" role="3cqZAk">
-                  <ref role="3cqZAo" node="4E" resolve="myConceptSegment" />
+                  <ref role="3cqZAo" node="4E" resolve="myConceptSegmentDefinition" />
                 </node>
               </node>
             </node>
             <node concept="10M0yZ" id="5S" role="3Kbmr1">
               <ref role="1PxDUh" node="35" resolve="LanguageConceptSwitch" />
-              <ref role="3cqZAo" node="3a" resolve="Segment" />
+              <ref role="3cqZAo" node="3a" resolve="SegmentDefinition" />
             </node>
           </node>
           <node concept="3KbdKl" id="5C" role="3KbHQx">
@@ -1202,7 +1202,7 @@
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="createDescriptorForClip" />
+      <property role="TrG5h" value="createDescriptorForClipDefinition" />
       <node concept="3clFbS" id="6d" role="3clF47">
         <node concept="3cpWs8" id="6g" role="3cqZAp">
           <node concept="3cpWsn" id="6p" role="3cpWs9">
@@ -1217,7 +1217,7 @@
                   <property role="Xl_RC" value="music_specification_language" />
                 </node>
                 <node concept="Xl_RD" id="6u" role="37wK5m">
-                  <property role="Xl_RC" value="Clip" />
+                  <property role="Xl_RC" value="ClipDefinition" />
                 </node>
                 <node concept="1adDum" id="6v" role="37wK5m">
                   <property role="1adDun" value="0xf9e4b29d3c894af7L" />
@@ -1405,7 +1405,7 @@
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="createDescriptorForInstrument" />
+      <property role="TrG5h" value="createDescriptorForInstrumentDefinition" />
       <node concept="3clFbS" id="7n" role="3clF47">
         <node concept="3cpWs8" id="7q" role="3cqZAp">
           <node concept="3cpWsn" id="7x" role="3cpWs9">
@@ -1420,7 +1420,7 @@
                   <property role="Xl_RC" value="music_specification_language" />
                 </node>
                 <node concept="Xl_RD" id="7A" role="37wK5m">
-                  <property role="Xl_RC" value="Instrument" />
+                  <property role="Xl_RC" value="InstrumentDefinition" />
                 </node>
                 <node concept="1adDum" id="7B" role="37wK5m">
                   <property role="1adDun" value="0xf9e4b29d3c894af7L" />
@@ -1859,7 +1859,7 @@
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="createDescriptorForSegment" />
+      <property role="TrG5h" value="createDescriptorForSegmentDefinition" />
       <node concept="3clFbS" id="9X" role="3clF47">
         <node concept="3cpWs8" id="a0" role="3cqZAp">
           <node concept="3cpWsn" id="a7" role="3cpWs9">
@@ -1874,7 +1874,7 @@
                   <property role="Xl_RC" value="music_specification_language" />
                 </node>
                 <node concept="Xl_RD" id="ac" role="37wK5m">
-                  <property role="Xl_RC" value="Segment" />
+                  <property role="Xl_RC" value="SegmentDefinition" />
                 </node>
                 <node concept="1adDum" id="ad" role="37wK5m">
                   <property role="1adDun" value="0xf9e4b29d3c894af7L" />

@@ -33,11 +33,11 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
 import music_specification_language.editor.msl_style_StyleSheet.PunctuationStyleClass;
 
-/*package*/ class Instrument_EditorBuilder_a extends AbstractEditorBuilder {
+/*package*/ class InstrumentDefinition_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
   private SNode myNode;
 
-  public Instrument_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
+  public InstrumentDefinition_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
     super(context);
     myNode = node;
   }
@@ -49,30 +49,30 @@ import music_specification_language.editor.msl_style_StyleSheet.PunctuationStyle
   }
 
   /*package*/ EditorCell createCell() {
-    return createCollection_15v7tu_a();
+    return createCollection_mahoih_a();
   }
 
-  private EditorCell createCollection_15v7tu_a() {
+  private EditorCell createCollection_mahoih_a() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
-    editorCell.setCellId("Collection_15v7tu_a");
+    editorCell.setCellId("Collection_mahoih_a");
     editorCell.setBig(true);
     editorCell.setCellContext(getCellFactory().getCellContext());
-    editorCell.addEditorCell(createConstant_15v7tu_a0());
-    editorCell.addEditorCell(createProperty_15v7tu_b0());
-    editorCell.addEditorCell(createConstant_15v7tu_c0());
-    editorCell.addEditorCell(createProperty_15v7tu_d0());
+    editorCell.addEditorCell(createConstant_mahoih_a0());
+    editorCell.addEditorCell(createProperty_mahoih_b0());
+    editorCell.addEditorCell(createConstant_mahoih_c0());
+    editorCell.addEditorCell(createProperty_mahoih_d0());
     return editorCell;
   }
-  private EditorCell createConstant_15v7tu_a0() {
+  private EditorCell createConstant_mahoih_a0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "instrument");
-    editorCell.setCellId("Constant_15v7tu_a0");
+    editorCell.setCellId("Constant_mahoih_a0");
     Style style = new StyleImpl();
     new KeywordStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createProperty_15v7tu_b0() {
+  private EditorCell createProperty_mahoih_b0() {
     getCellFactory().pushCellContext();
     try {
       final SProperty property = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
@@ -99,16 +99,16 @@ import music_specification_language.editor.msl_style_StyleSheet.PunctuationStyle
       getCellFactory().popCellContext();
     }
   }
-  private EditorCell createConstant_15v7tu_c0() {
+  private EditorCell createConstant_mahoih_c0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ":");
-    editorCell.setCellId("Constant_15v7tu_c0");
+    editorCell.setCellId("Constant_mahoih_c0");
     Style style = new StyleImpl();
     new PunctuationStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createProperty_15v7tu_d0() {
+  private EditorCell createProperty_mahoih_d0() {
     getCellFactory().pushCellContext();
     try {
       final SProperty property = MetaAdapterFactory.getProperty(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cccL, 0x4ce96639a4b44757L, "instrument_source");

@@ -12,9 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57892f9a-449a-4378-ae00-de4e2125f3cb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/languages/music_specification_language/source_gen/music_specification_language/editor/msl_style_StyleSheet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/music_specification_language/classes_gen/music_specification_language/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/music_specification_language/classes_gen/music_specification_language/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/music_specification_language/models/editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/music_specification_language/models/editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/music_specification_language/models/structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/music_specification_language/models/structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/music_specification_language/source_gen.caches/music_specification_language/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/music_specification_language/source_gen.caches/music_specification_language/editor/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/music_specification_language/source_gen.caches/music_specification_language/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/music_specification_language/source_gen.caches/music_specification_language/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/music_specification_language/source_gen.caches/music_specification_language/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/music_specification_language/source_gen.caches/music_specification_language/generated" afterDir="false" />
@@ -101,7 +103,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoMusic" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoMusic" pinned="false" current-in-tab="false">
         <entry file="mps://node://music_specification_language.sandbox/music_specification_language.sandbox/DemoMusic">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -109,11 +111,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="143" />
-                    <property name="caretXRelative" value="32" />
+                    <property name="caretX" value="151" />
+                    <property name="caretXRelative" value="72" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_pattern">
-                      <node node_reference="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460844" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -122,7 +124,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -134,28 +136,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Clip" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Clip" pinned="false" current-in-tab="true">
         <entry file="mps://node://music_specification_language/music_specification_language.structure/Clip">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="99" />
-                    <property name="caretXRelative" value="32" />
+                    <property name="caretX" value="191" />
+                    <property name="caretXRelative" value="112" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_text">
-                      <node node_reference="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/6137278502450467413" />
+                    <cellInfo cellId="name">
+                      <node node_reference="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
-                <transactionalProperties />
+                <transactionalProperties>
+                  <transactionalProperty uncommittedValue="ClipDefinition" cellId="name">
+                    <node node_reference="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" />
+                  </transactionalProperty>
+                </transactionalProperties>
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -163,24 +169,24 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/6137278502450467206" />
+              <node node_ref="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Instrument" pinned="false" current-in-tab="false">
-        <entry file="mps://node://music_specification_language/music_specification_language.structure/Instrument">
+      <file leaf-file-name="InstrumentDefinition" pinned="false" current-in-tab="false">
+        <entry file="mps://node://music_specification_language/music_specification_language.structure/InstrumentDefinition">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="235" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="71" />
+                    <property name="caretXRelative" value="56" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_text">
-                      <node node_reference="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553205" />
+                    <cellInfo cellId="Constant_ueqr71_c0a">
+                      <node node_reference="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367692" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -189,7 +195,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -197,7 +203,7 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553173" />
+              <node node_ref="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367692" />
             </state>
           </provider>
         </entry>
@@ -223,7 +229,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -274,7 +280,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -286,19 +292,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Segment" pinned="false" current-in-tab="false">
-        <entry file="mps://node://music_specification_language/music_specification_language.structure/Segment">
+      <file leaf-file-name="SegmentDefinition" pinned="false" current-in-tab="false">
+        <entry file="mps://node://music_specification_language/music_specification_language.structure/SegmentDefinition">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="195" />
-                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="383" />
+                    <property name="caretXRelative" value="136" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_text">
-                      <node node_reference="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553321" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553287" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -307,7 +313,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -341,7 +347,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -584,6 +590,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1003" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Bookmarks" order="7" />
       <window_info anchor="bottom" id="Model Checker" order="7" />
@@ -595,12 +602,12 @@
       <window_info anchor="right" id="Class Hierarchy" order="3" />
       <window_info anchor="bottom" id="Module Dependencies" order="7" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Inspector" order="7" sideWeight="0.50104165" side_tool="true" visible="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Inspector" order="7" sideWeight="0.50104165" side_tool="true" weight="0.32934782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Usages" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49895832" visible="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49895832" weight="0.32934782" />
       <window_info anchor="right" id="Context Actions" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -621,6 +628,43 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Model Checker" order="7" />
+      <window_info anchor="bottom" id="Bookmarks" order="8" />
+      <window_info anchor="right" id="Class Hierarchy" order="3" />
+      <window_info anchor="bottom" id="Migration" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Menu Trace" order="10" />
+      <window_info anchor="right" id="Typesystem Trace" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="right" id="Supertypes" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Context Actions" order="6" />
+      <window_info anchor="bottom" id="Classpath Explorer" order="13" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Usages" order="14" />
+      <window_info anchor="bottom" id="Node Explorer" order="15" />
+      <window_info anchor="bottom" id="Module Dependencies" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" />
+      <window_info anchor="bottom" id="Generation Tracer" order="18" />
+      <window_info anchor="bottom" id="Cell Explorer" order="19" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.49895832" visible="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Typechecker State" order="21" />
+      <window_info anchor="bottom" id="Console" order="22" />
+      <window_info anchor="bottom" id="RefactoringView" order="23" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspector" order="24" sideWeight="0.50104165" side_tool="true" visible="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Dependencies Viewer" order="25" />
+    </layout-to-restore>
   </component>
   <component name="UsagesViewTool">
     <version id="1" />
@@ -1966,7 +2010,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2105,18 +2149,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://music_specification_language/music_specification_language.structure/Clip">
+    <entry file="mps://node://music_specification_language.sandbox/music_specification_language.sandbox/DemoMusic">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="99" />
-                <property name="caretXRelative" value="32" />
+                <property name="caretX" value="151" />
+                <property name="caretXRelative" value="72" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text">
-                  <node node_reference="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/6137278502450467413" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460844" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2125,7 +2169,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2133,71 +2177,6 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/6137278502450467206" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://music_specification_language/music_specification_language.structure/Instrument">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="235" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text">
-                  <node node_reference="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553205" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553173" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://music_specification_language/music_specification_language.structure/MSLProgram">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="175" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_emptyCellModel">
-                  <node node_reference="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/6137278502450367871" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/6137278502450367753" />
         </state>
       </provider>
     </entry>
@@ -2208,11 +2187,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="195" />
-                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="383" />
+                <property name="caretXRelative" value="136" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text">
-                  <node node_reference="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553321" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553287" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2221,7 +2200,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2253,7 +2232,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2265,18 +2244,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://music_specification_language.sandbox/music_specification_language.sandbox/DemoMusic">
+    <entry file="mps://node://music_specification_language/music_specification_language.structure/MSLProgram">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="143" />
-                <property name="caretXRelative" value="32" />
+                <property name="caretX" value="175" />
+                <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_pattern">
-                  <node node_reference="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" />
+                <cellInfo cellId="empty_emptyCellModel">
+                  <node node_reference="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/6137278502450367871" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2285,7 +2264,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:334f5c96-64d6-43d0-a0e6-0720ece315a3(music_specification_language.sandbox)/6137278502450460846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2293,6 +2272,75 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
+          <node node_ref="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/6137278502450367753" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://music_specification_language/music_specification_language.structure/Instrument">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a">
+                  <node node_reference="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367692" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367692" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://music_specification_language/music_specification_language.structure/Clip">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="191" />
+                <property name="caretXRelative" value="112" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name">
+                  <node node_reference="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties>
+              <transactionalProperty uncommittedValue="ClipDefinition" cellId="name">
+                <node node_reference="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" />
+              </transactionalProperty>
+            </transactionalProperties>
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367695" />
         </state>
       </provider>
     </entry>

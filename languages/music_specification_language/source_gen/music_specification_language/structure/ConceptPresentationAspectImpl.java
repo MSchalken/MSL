@@ -9,10 +9,10 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
-  private ConceptPresentation props_Clip;
-  private ConceptPresentation props_Instrument;
+  private ConceptPresentation props_ClipDefinition;
+  private ConceptPresentation props_InstrumentDefinition;
   private ConceptPresentation props_MSLProgram;
-  private ConceptPresentation props_Segment;
+  private ConceptPresentation props_SegmentDefinition;
   private ConceptPresentation props_segment_clip;
 
   @Override
@@ -20,22 +20,22 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
-      case LanguageConceptSwitch.Clip:
-        if (props_Clip == null) {
+      case LanguageConceptSwitch.ClipDefinition:
+        if (props_ClipDefinition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.shortDesc("A clip containing a music pattern for a single instrument");
           cpb.presentationByName();
-          props_Clip = cpb.create();
+          props_ClipDefinition = cpb.create();
         }
-        return props_Clip;
-      case LanguageConceptSwitch.Instrument:
-        if (props_Instrument == null) {
+        return props_ClipDefinition;
+      case LanguageConceptSwitch.InstrumentDefinition:
+        if (props_InstrumentDefinition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.shortDesc("Declaration of a single instrument");
           cpb.presentationByName();
-          props_Instrument = cpb.create();
+          props_InstrumentDefinition = cpb.create();
         }
-        return props_Instrument;
+        return props_InstrumentDefinition;
       case LanguageConceptSwitch.MSLProgram:
         if (props_MSLProgram == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -43,14 +43,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_MSLProgram = cpb.create();
         }
         return props_MSLProgram;
-      case LanguageConceptSwitch.Segment:
-        if (props_Segment == null) {
+      case LanguageConceptSwitch.SegmentDefinition:
+        if (props_SegmentDefinition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.shortDesc("A segment of the music piece");
           cpb.presentationByName();
-          props_Segment = cpb.create();
+          props_SegmentDefinition = cpb.create();
         }
-        return props_Segment;
+        return props_SegmentDefinition;
       case LanguageConceptSwitch.segment_clip:
         if (props_segment_clip == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

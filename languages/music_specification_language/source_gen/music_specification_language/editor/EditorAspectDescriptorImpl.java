@@ -19,13 +19,13 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     SAbstractConcept cncpt_a0a = ((SAbstractConcept) concept);
     switch (index_xbvbvu_a0a.index(cncpt_a0a)) {
       case 0:
-        return Collections.<ConceptEditor>singletonList(new Clip_Editor());
+        return Collections.<ConceptEditor>singletonList(new ClipDefinition_Editor());
       case 1:
-        return Collections.<ConceptEditor>singletonList(new Instrument_Editor());
+        return Collections.<ConceptEditor>singletonList(new InstrumentDefinition_Editor());
       case 2:
         return Collections.<ConceptEditor>singletonList(new MSLProgram_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new Segment_Editor());
+        return Collections.<ConceptEditor>singletonList(new SegmentDefinition_Editor());
       case 4:
         return Collections.<ConceptEditor>singletonList(new segment_clip_Editor());
       default:

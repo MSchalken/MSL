@@ -140,7 +140,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5kFZ$w2cT66">
-    <ref role="1XX52x" to="d1ne:5kFZ$w2cwNf" resolve="Clip" />
+    <ref role="1XX52x" to="d1ne:5kFZ$w2cwNf" resolve="ClipDefinition" />
     <node concept="3EZMnI" id="5kFZ$w2cT6b" role="2wV5jI">
       <node concept="3F0ifn" id="5kFZ$w2cT6l" role="3EZMnx">
         <property role="3F0ifm" value="clip" />
@@ -204,7 +204,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4NDpzA$H4tl">
-    <ref role="1XX52x" to="d1ne:5kFZ$w2cwNc" resolve="Instrument" />
+    <ref role="1XX52x" to="d1ne:5kFZ$w2cwNc" resolve="InstrumentDefinition" />
     <node concept="3EZMnI" id="4NDpzA$H4tp" role="2wV5jI">
       <node concept="2iRfu4" id="4NDpzA$H4tq" role="2iSdaV" />
       <node concept="3F0ifn" id="4NDpzA$H4ty" role="3EZMnx">
@@ -245,7 +245,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4NDpzA$H4v7">
-    <ref role="1XX52x" to="d1ne:5kFZ$w2cwN_" resolve="Segment" />
+    <ref role="1XX52x" to="d1ne:5kFZ$w2cwN_" resolve="SegmentDefinition" />
     <node concept="3EZMnI" id="4NDpzA$H4v9" role="2wV5jI">
       <node concept="l2Vlx" id="4NDpzA$H4va" role="2iSdaV" />
       <node concept="3F0ifn" id="4NDpzA$H4vi" role="3EZMnx">

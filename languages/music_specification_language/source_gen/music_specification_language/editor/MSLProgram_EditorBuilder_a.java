@@ -210,7 +210,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     }
 
     public SNode createNodeToInsert(EditorContext editorContext) {
-      return NodeFactoryManager.createNode(MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cccL, "music_specification_language.structure.Instrument"), null, getNode(), getNode().getModel());
+      return NodeFactoryManager.createNode(MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cccL, "music_specification_language.structure.InstrumentDefinition"), null, getNode(), getNode().getModel());
     }
     public EditorCell createNodeCell(SNode elementNode) {
       EditorCell elementCell = getUpdateSession().updateChildNodeCell(elementNode);
@@ -278,7 +278,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     }
 
     public SNode createNodeToInsert(EditorContext editorContext) {
-      return NodeFactoryManager.createNode(MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ccfL, "music_specification_language.structure.Clip"), null, getNode(), getNode().getModel());
+      return NodeFactoryManager.createNode(MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ccfL, "music_specification_language.structure.ClipDefinition"), null, getNode(), getNode().getModel());
     }
     public EditorCell createNodeCell(SNode elementNode) {
       EditorCell elementCell = getUpdateSession().updateChildNodeCell(elementNode);
@@ -355,7 +355,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     }
 
     public SNode createNodeToInsert(EditorContext editorContext) {
-      return NodeFactoryManager.createNode(MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ce5L, "music_specification_language.structure.Segment"), null, getNode(), getNode().getModel());
+      return NodeFactoryManager.createNode(MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ce5L, "music_specification_language.structure.SegmentDefinition"), null, getNode(), getNode().getModel());
     }
     public EditorCell createNodeCell(SNode elementNode) {
       EditorCell elementCell = getUpdateSession().updateChildNodeCell(elementNode);

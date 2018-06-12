@@ -22,18 +22,18 @@
     </file>
   </root>
   <root nodeRef="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553173">
-    <file name="Instrument_Editor.java">
-      <node id="5542073214218553173" at="11,79,12,76" concept="6" />
+    <file name="InstrumentDefinition_Editor.java">
+      <node id="5542073214218553173" at="11,79,12,86" concept="6" />
       <node id="5542073214218553173" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5542073214218553173" at="11,79,12,76" />
+      <scope id="5542073214218553173" at="11,79,12,86" />
       <scope id="5542073214218553173" at="11,0,14,0">
         <var name="editorContext" id="5542073214218553173" />
         <var name="node" id="5542073214218553173" />
       </scope>
-      <unit id="5542073214218553173" at="10,0,15,0" name="music_specification_language.editor.Instrument_Editor" />
+      <unit id="5542073214218553173" at="10,0,15,0" name="music_specification_language.editor.InstrumentDefinition_Editor" />
     </file>
-    <file name="Instrument_EditorBuilder_a.java">
-      <node id="5542073214218553173" at="40,90,41,19" concept="9" />
+    <file name="InstrumentDefinition_EditorBuilder_a.java">
+      <node id="5542073214218553173" at="40,100,41,19" concept="9" />
       <node id="5542073214218553173" at="41,19,42,18" concept="1" />
       <node id="5542073214218553173" at="47,26,48,18" concept="6" />
       <node id="5542073214218553173" at="51,39,52,39" concept="6" />
@@ -96,26 +96,26 @@
       <node id="5542073214218553173" at="51,0,54,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5542073214218553192" at="89,0,92,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="5542073214218553215" at="125,0,128,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="5542073214218553173" at="40,0,44,0" concept="0" trace="Instrument_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5542073214218553173" at="40,0,44,0" concept="0" trace="InstrumentDefinition_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5542073214218553173" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5542073214218553192" at="87,306,92,9" concept="5" />
       <node id="5542073214218553192" at="92,9,97,24" concept="3" />
       <node id="5542073214218553215" at="123,306,128,9" concept="5" />
       <node id="5542073214218553215" at="128,9,133,24" concept="3" />
-      <node id="5542073214218553186" at="66,0,75,0" concept="4" trace="createConstant_15v7tu_a0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5542073214218553205" at="102,0,111,0" concept="4" trace="createConstant_15v7tu_c0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5542073214218553173" at="55,0,66,0" concept="4" trace="createCollection_15v7tu_a#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218553186" at="66,0,75,0" concept="4" trace="createConstant_mahoih_a0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218553205" at="102,0,111,0" concept="4" trace="createConstant_mahoih_c0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218553173" at="55,0,66,0" concept="4" trace="createCollection_mahoih_a#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5542073214218553192" at="76,39,100,5" concept="10" />
       <node id="5542073214218553215" at="112,39,136,5" concept="10" />
-      <node id="5542073214218553192" at="75,0,102,0" concept="4" trace="createProperty_15v7tu_b0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5542073214218553215" at="111,0,138,0" concept="4" trace="createProperty_15v7tu_d0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218553192" at="75,0,102,0" concept="4" trace="createProperty_mahoih_b0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218553215" at="111,0,138,0" concept="4" trace="createProperty_mahoih_d0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5542073214218553173" at="47,26,48,18" />
       <scope id="5542073214218553173" at="51,39,52,39" />
       <scope id="5542073214218553192" at="89,41,90,118" />
       <scope id="5542073214218553192" at="98,15,99,40" />
       <scope id="5542073214218553215" at="125,41,126,118" />
       <scope id="5542073214218553215" at="134,15,135,40" />
-      <scope id="5542073214218553173" at="40,90,42,18" />
+      <scope id="5542073214218553173" at="40,100,42,18" />
       <scope id="5542073214218553192" at="93,74,95,145">
         <var name="manager" id="5542073214218553192" />
       </scope>
@@ -164,9 +164,9 @@
       <scope id="5542073214218553215" at="111,49,136,5" />
       <scope id="5542073214218553192" at="75,0,102,0" />
       <scope id="5542073214218553215" at="111,0,138,0" />
-      <unit id="5542073214218553192" at="88,102,92,7" name="music_specification_language.editor.Instrument_EditorBuilder_a$1" />
-      <unit id="5542073214218553215" at="124,102,128,7" name="music_specification_language.editor.Instrument_EditorBuilder_a$2" />
-      <unit id="5542073214218553173" at="36,0,139,0" name="music_specification_language.editor.Instrument_EditorBuilder_a" />
+      <unit id="5542073214218553192" at="88,102,92,7" name="music_specification_language.editor.InstrumentDefinition_EditorBuilder_a$1" />
+      <unit id="5542073214218553215" at="124,102,128,7" name="music_specification_language.editor.InstrumentDefinition_EditorBuilder_a$2" />
+      <unit id="5542073214218553173" at="36,0,139,0" name="music_specification_language.editor.InstrumentDefinition_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553229">
@@ -386,18 +386,18 @@
     </file>
   </root>
   <root nodeRef="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218553287">
-    <file name="Segment_Editor.java">
-      <node id="5542073214218553287" at="11,79,12,73" concept="6" />
+    <file name="SegmentDefinition_Editor.java">
+      <node id="5542073214218553287" at="11,79,12,83" concept="6" />
       <node id="5542073214218553287" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5542073214218553287" at="11,79,12,73" />
+      <scope id="5542073214218553287" at="11,79,12,83" />
       <scope id="5542073214218553287" at="11,0,14,0">
         <var name="editorContext" id="5542073214218553287" />
         <var name="node" id="5542073214218553287" />
       </scope>
-      <unit id="5542073214218553287" at="10,0,15,0" name="music_specification_language.editor.Segment_Editor" />
+      <unit id="5542073214218553287" at="10,0,15,0" name="music_specification_language.editor.SegmentDefinition_Editor" />
     </file>
-    <file name="Segment_EditorBuilder_a.java">
-      <node id="5542073214218553287" at="48,87,49,19" concept="9" />
+    <file name="SegmentDefinition_EditorBuilder_a.java">
+      <node id="5542073214218553287" at="48,97,49,19" concept="9" />
       <node id="5542073214218553287" at="49,19,50,18" concept="1" />
       <node id="5542073214218553287" at="55,26,56,18" concept="6" />
       <node id="5542073214218553287" at="59,39,60,39" concept="6" />
@@ -441,8 +441,8 @@
       <node id="5542073214218553321" at="115,60,116,40" concept="1" />
       <node id="5542073214218553321" at="116,40,117,34" concept="1" />
       <node id="5542073214218553321" at="117,34,118,22" concept="6" />
-      <node id="5542073214218553287" at="120,52,121,130" concept="5" />
-      <node id="5542073214218553287" at="121,130,122,93" concept="5" />
+      <node id="5542073214218553287" at="120,52,121,140" concept="5" />
+      <node id="5542073214218553287" at="121,140,122,93" concept="5" />
       <node id="5542073214218553287" at="122,93,123,46" concept="1" />
       <node id="5542073214218553287" at="123,46,124,34" concept="5" />
       <node id="5542073214218553287" at="124,34,125,58" concept="1" />
@@ -474,24 +474,24 @@
       <node id="5542073214218553308" at="97,0,100,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="5542073214218553287" at="145,0,148,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5542073214218553287" at="172,9,175,9" concept="3" />
-      <node id="5542073214218553287" at="48,0,52,0" concept="0" trace="Segment_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="5542073214218553287" at="134,0,138,0" concept="0" trace="clipsListHandler_3akyzg_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="5542073214218553287" at="48,0,52,0" concept="0" trace="SegmentDefinition_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5542073214218553287" at="134,0,138,0" concept="0" trace="clipsListHandler_hojatv_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5542073214218553287" at="168,134,172,9" concept="3" />
       <node id="5542073214218553287" at="53,0,58,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5542073214218553308" at="95,306,100,9" concept="5" />
       <node id="5542073214218553308" at="100,9,105,24" concept="3" />
       <node id="5542073214218553287" at="139,0,144,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5542073214218553287" at="148,0,153,0" concept="4" trace="createNodeCell#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5542073214218553298" at="74,0,83,0" concept="4" trace="createConstant_3akyzg_a0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218553298" at="74,0,83,0" concept="4" trace="createConstant_hojatv_a0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5542073214218553287" at="155,251,164,7" concept="10" />
-      <node id="5542073214218553321" at="110,0,120,0" concept="4" trace="createConstant_3akyzg_c0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5542073214218553287" at="120,0,130,0" concept="4" trace="createRefNodeList_3akyzg_d0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218553321" at="110,0,120,0" concept="4" trace="createConstant_hojatv_c0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218553287" at="120,0,130,0" concept="4" trace="createRefNodeList_hojatv_d0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5542073214218553287" at="166,86,176,7" concept="3" />
-      <node id="5542073214218553287" at="63,0,74,0" concept="4" trace="createCollection_3akyzg_a#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218553287" at="63,0,74,0" concept="4" trace="createCollection_hojatv_a#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5542073214218553287" at="166,0,178,0" concept="4" trace="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
       <node id="5542073214218553287" at="153,0,166,0" concept="4" trace="createEmptyCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5542073214218553308" at="84,39,108,5" concept="10" />
-      <node id="5542073214218553308" at="83,0,110,0" concept="4" trace="createProperty_3akyzg_b0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218553308" at="83,0,110,0" concept="4" trace="createProperty_hojatv_b0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5542073214218553287" at="55,26,56,18" />
       <scope id="5542073214218553287" at="59,39,60,39" />
       <scope id="5542073214218553308" at="97,41,98,118" />
@@ -500,7 +500,7 @@
       <scope id="5542073214218553287" at="145,66,146,231" />
       <scope id="5542073214218553287" at="162,17,163,42" />
       <scope id="5542073214218553287" at="173,122,174,235" />
-      <scope id="5542073214218553287" at="48,87,50,18" />
+      <scope id="5542073214218553287" at="48,97,50,18" />
       <scope id="5542073214218553308" at="101,74,103,145">
         <var name="manager" id="5542073214218553308" />
       </scope>
@@ -569,9 +569,9 @@
       </scope>
       <scope id="5542073214218553308" at="83,49,108,5" />
       <scope id="5542073214218553308" at="83,0,110,0" />
-      <unit id="5542073214218553308" at="96,102,100,7" name="music_specification_language.editor.Segment_EditorBuilder_a$1" />
-      <unit id="5542073214218553287" at="130,0,179,0" name="music_specification_language.editor.Segment_EditorBuilder_a$clipsListHandler_3akyzg_d0" />
-      <unit id="5542073214218553287" at="44,0,180,0" name="music_specification_language.editor.Segment_EditorBuilder_a" />
+      <unit id="5542073214218553308" at="96,102,100,7" name="music_specification_language.editor.SegmentDefinition_EditorBuilder_a$1" />
+      <unit id="5542073214218553287" at="130,0,179,0" name="music_specification_language.editor.SegmentDefinition_EditorBuilder_a$clipsListHandler_hojatv_d0" />
+      <unit id="5542073214218553287" at="44,0,180,0" name="music_specification_language.editor.SegmentDefinition_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/5542073214218739948">
@@ -750,7 +750,7 @@
       <node id="6137278502450367753" at="201,103,202,50" concept="9" />
       <node id="6137278502450367753" at="202,50,203,25" concept="1" />
       <node id="6137278502450367753" at="208,28,209,20" concept="6" />
-      <node id="6137278502450367753" at="212,66,213,229" concept="6" />
+      <node id="6137278502450367753" at="212,66,213,239" concept="6" />
       <node id="6137278502450367753" at="215,57,216,83" concept="5" />
       <node id="6137278502450367753" at="216,83,217,58" concept="1" />
       <node id="6137278502450367753" at="217,58,218,25" concept="6" />
@@ -784,7 +784,7 @@
       <node id="6137278502450367753" at="269,97,270,50" concept="9" />
       <node id="6137278502450367753" at="270,50,271,25" concept="1" />
       <node id="6137278502450367753" at="276,28,277,20" concept="6" />
-      <node id="6137278502450367753" at="280,66,281,223" concept="6" />
+      <node id="6137278502450367753" at="280,66,281,233" concept="6" />
       <node id="6137278502450367753" at="283,57,284,83" concept="5" />
       <node id="6137278502450367753" at="284,83,285,58" concept="1" />
       <node id="6137278502450367753" at="285,58,286,25" concept="6" />
@@ -824,7 +824,7 @@
       <node id="6137278502450367753" at="346,100,347,50" concept="9" />
       <node id="6137278502450367753" at="347,50,348,25" concept="1" />
       <node id="6137278502450367753" at="353,28,354,20" concept="6" />
-      <node id="6137278502450367753" at="357,66,358,226" concept="6" />
+      <node id="6137278502450367753" at="357,66,358,236" concept="6" />
       <node id="6137278502450367753" at="360,57,361,83" concept="5" />
       <node id="6137278502450367753" at="361,83,362,58" concept="1" />
       <node id="6137278502450367753" at="362,58,363,25" concept="6" />
@@ -916,15 +916,15 @@
       <scope id="6137278502450367798" at="165,41,166,118" />
       <scope id="6137278502450367798" at="174,15,175,40" />
       <scope id="6137278502450367753" at="208,28,209,20" />
-      <scope id="6137278502450367753" at="212,66,213,229" />
+      <scope id="6137278502450367753" at="212,66,213,239" />
       <scope id="6137278502450367753" at="229,17,230,42" />
       <scope id="6137278502450367753" at="240,122,241,241" />
       <scope id="6137278502450367753" at="276,28,277,20" />
-      <scope id="6137278502450367753" at="280,66,281,223" />
+      <scope id="6137278502450367753" at="280,66,281,233" />
       <scope id="6137278502450367753" at="297,17,298,42" />
       <scope id="6137278502450367753" at="308,122,309,235" />
       <scope id="6137278502450367753" at="353,28,354,20" />
-      <scope id="6137278502450367753" at="357,66,358,226" />
+      <scope id="6137278502450367753" at="357,66,358,236" />
       <scope id="6137278502450367753" at="374,17,375,42" />
       <scope id="6137278502450367753" at="385,122,386,238" />
       <scope id="6137278502450367753" at="48,90,50,18" />
@@ -1129,18 +1129,18 @@
     </file>
   </root>
   <root nodeRef="r:8d67cbb9-5e64-4039-b1a4-62f4859f2894(music_specification_language.editor)/6137278502450467206">
-    <file name="Clip_Editor.java">
-      <node id="6137278502450467206" at="11,79,12,70" concept="6" />
+    <file name="ClipDefinition_Editor.java">
+      <node id="6137278502450467206" at="11,79,12,80" concept="6" />
       <node id="6137278502450467206" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6137278502450467206" at="11,79,12,70" />
+      <scope id="6137278502450467206" at="11,79,12,80" />
       <scope id="6137278502450467206" at="11,0,14,0">
         <var name="editorContext" id="6137278502450467206" />
         <var name="node" id="6137278502450467206" />
       </scope>
-      <unit id="6137278502450467206" at="10,0,15,0" name="music_specification_language.editor.Clip_Editor" />
+      <unit id="6137278502450467206" at="10,0,15,0" name="music_specification_language.editor.ClipDefinition_Editor" />
     </file>
-    <file name="Clip_EditorBuilder_a.java">
-      <node id="6137278502450467206" at="48,84,49,19" concept="9" />
+    <file name="ClipDefinition_EditorBuilder_a.java">
+      <node id="6137278502450467206" at="48,94,49,19" concept="9" />
       <node id="6137278502450467206" at="49,19,50,18" concept="1" />
       <node id="6137278502450467206" at="55,26,56,18" concept="6" />
       <node id="6137278502450467206" at="59,39,60,39" concept="6" />
@@ -1191,7 +1191,7 @@
       <node id="6137278502450467304" at="122,40,123,34" concept="1" />
       <node id="6137278502450467304" at="123,34,124,22" concept="6" />
       <node id="6137278502450467206" at="126,48,127,175" concept="5" />
-      <node id="6137278502450467206" at="131,39,132,126" concept="6" />
+      <node id="6137278502450467206" at="131,39,132,136" concept="6" />
       <node id="6137278502450467206" at="134,37,135,60" concept="1" />
       <node id="6137278502450467206" at="135,60,136,48" concept="1" />
       <node id="6137278502450467206" at="136,48,137,43" concept="1" />
@@ -1313,7 +1313,7 @@
       <node id="6137278502450477687" at="197,0,200,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="6137278502450467379" at="257,0,260,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="6137278502450467437" at="303,0,306,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="6137278502450467206" at="48,0,52,0" concept="0" trace="Clip_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6137278502450467206" at="48,0,52,0" concept="0" trace="ClipDefinition_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6137278502450467206" at="144,0,148,5" concept="3" />
       <node id="6137278502450467206" at="53,0,58,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6137278502450467291" at="102,306,107,9" concept="5" />
@@ -1321,7 +1321,7 @@
       <node id="6137278502450467206" at="129,72,134,37" concept="5" />
       <node id="6137278502450467206" at="150,301,155,7" concept="5" />
       <node id="6137278502450467206" at="155,7,160,22" concept="3" />
-      <node id="6137278502450477668" at="167,0,172,0" concept="0" trace="Inline_Builder_e6x5zy_a3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6137278502450477668" at="167,0,172,0" concept="0" trace="Inline_Builder_kfnc50_a3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6137278502450477668" at="177,0,182,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6137278502450477687" at="195,308,200,11" concept="5" />
       <node id="6137278502450477687" at="200,11,205,26" concept="3" />
@@ -1329,30 +1329,30 @@
       <node id="6137278502450467379" at="260,9,265,24" concept="3" />
       <node id="6137278502450467437" at="301,306,306,9" concept="5" />
       <node id="6137278502450467437" at="306,9,311,24" concept="3" />
-      <node id="6137278502450467221" at="81,0,90,0" concept="4" trace="createConstant_e6x5zy_a0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6137278502450467304" at="117,0,126,0" concept="4" trace="createConstant_e6x5zy_c0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5542073214218740129" at="231,0,240,0" concept="4" trace="createConstant_e6x5zy_g0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5542073214218740165" at="280,0,289,0" concept="4" trace="createConstant_e6x5zy_j0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6137278502450467333" at="211,0,221,0" concept="4" trace="createConstant_e6x5zy_e0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6137278502450467361" at="221,0,231,0" concept="4" trace="createConstant_e6x5zy_f0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6137278502450467413" at="270,0,280,0" concept="4" trace="createConstant_e6x5zy_i0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450467221" at="81,0,90,0" concept="4" trace="createConstant_kfnc50_a0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450467304" at="117,0,126,0" concept="4" trace="createConstant_kfnc50_c0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218740129" at="231,0,240,0" concept="4" trace="createConstant_kfnc50_g0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5542073214218740165" at="280,0,289,0" concept="4" trace="createConstant_kfnc50_j0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450467333" at="211,0,221,0" concept="4" trace="createConstant_kfnc50_e0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450467361" at="221,0,231,0" concept="4" trace="createConstant_kfnc50_f0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450467413" at="270,0,280,0" concept="4" trace="createConstant_kfnc50_i0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6137278502450467206" at="129,0,140,0" concept="4" trace="createReferenceCell#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6137278502450467206" at="127,175,140,6" concept="5" />
-      <node id="6137278502450467206" at="63,0,81,0" concept="4" trace="createCollection_e6x5zy_a#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450467206" at="63,0,81,0" concept="4" trace="createCollection_kfnc50_a#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6137278502450467291" at="91,39,115,5" concept="10" />
       <node id="6137278502450477687" at="184,41,208,7" concept="10" />
       <node id="6137278502450467437" at="290,39,314,5" concept="10" />
-      <node id="6137278502450467291" at="90,0,117,0" concept="4" trace="createProperty_e6x5zy_b0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6137278502450477687" at="183,0,210,0" concept="4" trace="createProperty_e6x5zy_a0d0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450467291" at="90,0,117,0" concept="4" trace="createProperty_kfnc50_b0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450477687" at="183,0,210,0" concept="4" trace="createProperty_kfnc50_a0d0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6137278502450467379" at="241,39,268,5" concept="10" />
-      <node id="6137278502450467437" at="289,0,316,0" concept="4" trace="createProperty_e6x5zy_k0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6137278502450467379" at="240,0,270,0" concept="4" trace="createProperty_e6x5zy_h0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6137278502450467206" at="126,0,162,0" concept="4" trace="createRefCell_e6x5zy_d0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450467437" at="289,0,316,0" concept="4" trace="createProperty_kfnc50_k0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450467379" at="240,0,270,0" concept="4" trace="createProperty_kfnc50_h0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6137278502450467206" at="126,0,162,0" concept="4" trace="createRefCell_kfnc50_d0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6137278502450467206" at="55,26,56,18" />
       <scope id="6137278502450467206" at="59,39,60,39" />
       <scope id="6137278502450467291" at="104,41,105,118" />
       <scope id="6137278502450467291" at="113,15,114,40" />
-      <scope id="6137278502450467206" at="131,39,132,126" />
+      <scope id="6137278502450467206" at="131,39,132,136" />
       <scope id="6137278502450467206" at="152,39,153,113" />
       <scope id="6137278502450477668" at="173,41,174,42" />
       <scope id="6137278502450477668" at="179,28,180,20" />
@@ -1362,7 +1362,7 @@
       <scope id="6137278502450467379" at="266,15,267,40" />
       <scope id="6137278502450467437" at="303,41,304,118" />
       <scope id="6137278502450467437" at="312,15,313,40" />
-      <scope id="6137278502450467206" at="48,84,50,18" />
+      <scope id="6137278502450467206" at="48,94,50,18" />
       <scope id="6137278502450467291" at="108,74,110,145">
         <var name="manager" id="6137278502450467291" />
       </scope>
@@ -1495,15 +1495,15 @@
         <var name="referenceLink" id="6137278502450467206" />
       </scope>
       <scope id="6137278502450467206" at="126,0,162,0" />
-      <unit id="6137278502450467291" at="103,102,107,7" name="music_specification_language.editor.Clip_EditorBuilder_a$1" />
-      <unit id="6137278502450467206" at="130,74,134,9" name="music_specification_language.editor.Clip_EditorBuilder_a$2$1" />
-      <unit id="6137278502450467206" at="151,102,155,5" name="music_specification_language.editor.Clip_EditorBuilder_a$3" />
-      <unit id="6137278502450477687" at="196,104,200,9" name="music_specification_language.editor.Clip_EditorBuilder_a$Inline_Builder_e6x5zy_a3a$1" />
-      <unit id="6137278502450467379" at="256,102,260,7" name="music_specification_language.editor.Clip_EditorBuilder_a$4" />
-      <unit id="6137278502450467437" at="302,102,306,7" name="music_specification_language.editor.Clip_EditorBuilder_a$5" />
-      <unit id="6137278502450467206" at="128,42,140,5" name="music_specification_language.editor.Clip_EditorBuilder_a$2" />
-      <unit id="6137278502450477668" at="162,0,211,0" name="music_specification_language.editor.Clip_EditorBuilder_a$Inline_Builder_e6x5zy_a3a" />
-      <unit id="6137278502450467206" at="44,0,317,0" name="music_specification_language.editor.Clip_EditorBuilder_a" />
+      <unit id="6137278502450467291" at="103,102,107,7" name="music_specification_language.editor.ClipDefinition_EditorBuilder_a$1" />
+      <unit id="6137278502450467206" at="130,74,134,9" name="music_specification_language.editor.ClipDefinition_EditorBuilder_a$2$1" />
+      <unit id="6137278502450467206" at="151,102,155,5" name="music_specification_language.editor.ClipDefinition_EditorBuilder_a$3" />
+      <unit id="6137278502450477687" at="196,104,200,9" name="music_specification_language.editor.ClipDefinition_EditorBuilder_a$Inline_Builder_kfnc50_a3a$1" />
+      <unit id="6137278502450467379" at="256,102,260,7" name="music_specification_language.editor.ClipDefinition_EditorBuilder_a$4" />
+      <unit id="6137278502450467437" at="302,102,306,7" name="music_specification_language.editor.ClipDefinition_EditorBuilder_a$5" />
+      <unit id="6137278502450467206" at="128,42,140,5" name="music_specification_language.editor.ClipDefinition_EditorBuilder_a$2" />
+      <unit id="6137278502450477668" at="162,0,211,0" name="music_specification_language.editor.ClipDefinition_EditorBuilder_a$Inline_Builder_kfnc50_a3a" />
+      <unit id="6137278502450467206" at="44,0,317,0" name="music_specification_language.editor.ClipDefinition_EditorBuilder_a" />
     </file>
   </root>
 </debug-info>

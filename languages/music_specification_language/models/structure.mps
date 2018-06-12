@@ -53,14 +53,14 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="instruments" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="5kFZ$w2cwNc" resolve="Instrument" />
+      <ref role="20lvS9" node="5kFZ$w2cwNc" resolve="InstrumentDefinition" />
     </node>
     <node concept="1TJgyj" id="5kFZ$w2cwN5" role="1TKVEi">
       <property role="IQ2ns" value="6137278502450367685" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="clips" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="5kFZ$w2cwNf" resolve="Clip" />
+      <ref role="20lvS9" node="5kFZ$w2cwNf" resolve="ClipDefinition" />
     </node>
     <node concept="PrWs8" id="5kFZ$w2cwMZ" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -75,12 +75,12 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="segments" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="5kFZ$w2cwN_" resolve="Segment" />
+      <ref role="20lvS9" node="5kFZ$w2cwN_" resolve="SegmentDefinition" />
     </node>
   </node>
   <node concept="1TIwiD" id="5kFZ$w2cwNc">
     <property role="EcuMT" value="6137278502450367692" />
-    <property role="TrG5h" value="Instrument" />
+    <property role="TrG5h" value="InstrumentDefinition" />
     <property role="34LRSv" value="instrument" />
     <property role="R4oN_" value="Declaration of a single instrument" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -95,7 +95,7 @@
   </node>
   <node concept="1TIwiD" id="5kFZ$w2cwNf">
     <property role="EcuMT" value="6137278502450367695" />
-    <property role="TrG5h" value="Clip" />
+    <property role="TrG5h" value="ClipDefinition" />
     <property role="34LRSv" value="clip" />
     <property role="R4oN_" value="A clip containing a music pattern for a single instrument" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -117,12 +117,12 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="instrument" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5kFZ$w2cwNc" resolve="Instrument" />
+      <ref role="20lvS9" node="5kFZ$w2cwNc" resolve="InstrumentDefinition" />
     </node>
   </node>
   <node concept="1TIwiD" id="5kFZ$w2cwN_">
     <property role="EcuMT" value="6137278502450367717" />
-    <property role="TrG5h" value="Segment" />
+    <property role="TrG5h" value="SegmentDefinition" />
     <property role="34LRSv" value="segment" />
     <property role="R4oN_" value="A segment of the music piece" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -151,7 +151,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="clip" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5kFZ$w2cwNf" resolve="Clip" />
+      <ref role="20lvS9" node="5kFZ$w2cwNf" resolve="ClipDefinition" />
     </node>
   </node>
 </model>

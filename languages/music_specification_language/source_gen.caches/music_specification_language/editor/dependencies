@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="music_specification_language.editor.Clip_Editor" file="Clip_Editor.java">
+  <dependency className="music_specification_language.editor.ClipDefinition_Editor" file="ClipDefinition_Editor.java">
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
-    <classNode dependClassName="music_specification_language.editor.Clip_EditorBuilder_a" />
+    <classNode dependClassName="music_specification_language.editor.ClipDefinition_EditorBuilder_a" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
-  <dependency className="music_specification_language.editor.Clip_EditorBuilder_a" file="Clip_EditorBuilder_a.java">
+  <dependency className="music_specification_language.editor.ClipDefinition_EditorBuilder_a" file="ClipDefinition_EditorBuilder_a.java">
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.Objects" />
@@ -58,24 +58,24 @@
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.SubstituteMenu" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.MetaIdFactory" />
-    <classNode dependClassName="music_specification_language.editor.Clip_Editor" />
-    <classNode dependClassName="music_specification_language.editor.Instrument_Editor" />
+    <classNode dependClassName="music_specification_language.editor.ClipDefinition_Editor" />
+    <classNode dependClassName="music_specification_language.editor.InstrumentDefinition_Editor" />
     <classNode dependClassName="music_specification_language.editor.MSLProgram_Editor" />
-    <classNode dependClassName="music_specification_language.editor.Segment_Editor" />
+    <classNode dependClassName="music_specification_language.editor.SegmentDefinition_Editor" />
     <classNode dependClassName="music_specification_language.editor.segment_clip_Editor" />
     <classNode dependClassName="music_specification_language.editor.segment_clip_SubstituteMenu" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.EditorAspectDescriptorBase" />
   </dependency>
-  <dependency className="music_specification_language.editor.Instrument_Editor" file="Instrument_Editor.java">
+  <dependency className="music_specification_language.editor.InstrumentDefinition_Editor" file="InstrumentDefinition_Editor.java">
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
-    <classNode dependClassName="music_specification_language.editor.Instrument_EditorBuilder_a" />
+    <classNode dependClassName="music_specification_language.editor.InstrumentDefinition_EditorBuilder_a" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
-  <dependency className="music_specification_language.editor.Instrument_EditorBuilder_a" file="Instrument_EditorBuilder_a.java">
+  <dependency className="music_specification_language.editor.InstrumentDefinition_EditorBuilder_a" file="InstrumentDefinition_EditorBuilder_a.java">
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.Objects" />
@@ -159,14 +159,14 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.editor.runtime.descriptor.AbstractEditorBuilder" />
   </dependency>
-  <dependency className="music_specification_language.editor.Segment_Editor" file="Segment_Editor.java">
+  <dependency className="music_specification_language.editor.SegmentDefinition_Editor" file="SegmentDefinition_Editor.java">
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
-    <classNode dependClassName="music_specification_language.editor.Segment_EditorBuilder_a" />
+    <classNode dependClassName="music_specification_language.editor.SegmentDefinition_EditorBuilder_a" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
-  <dependency className="music_specification_language.editor.Segment_EditorBuilder_a" file="Segment_EditorBuilder_a.java">
+  <dependency className="music_specification_language.editor.SegmentDefinition_EditorBuilder_a" file="SegmentDefinition_EditorBuilder_a.java">
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
