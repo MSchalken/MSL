@@ -21,13 +21,13 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.lang.editor.menus.substitute.DefaultSubstituteMenuLookup;
 import jetbrains.mps.smodel.language.LanguageRegistry;
 
-public class segment_clip_SubstituteMenu extends SubstituteMenuBase {
+public class clip_ref_SubstituteMenu extends SubstituteMenuBase {
   @NotNull
   @Override
   protected List<MenuPart<SubstituteMenuItem, SubstituteMenuContext>> getParts(final SubstituteMenuContext _context) {
     List<MenuPart<SubstituteMenuItem, SubstituteMenuContext>> result = new ArrayList<MenuPart<SubstituteMenuItem, SubstituteMenuContext>>();
-    result.add(new ConstraintsFilteringSubstituteMenuPartDecorator(new segment_clip_SubstituteMenu.SMP_ReferenceScope_vvll6m_a(), MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, "music_specification_language.structure.segment_clip")));
-    result.add(new segment_clip_SubstituteMenu.SMP_Subconcepts_vvll6m_b());
+    result.add(new ConstraintsFilteringSubstituteMenuPartDecorator(new clip_ref_SubstituteMenu.SMP_ReferenceScope_glomoq_a(), MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, "music_specification_language.structure.clip_ref")));
+    result.add(new clip_ref_SubstituteMenu.SMP_Subconcepts_glomoq_b());
     return result;
   }
 
@@ -35,7 +35,7 @@ public class segment_clip_SubstituteMenu extends SubstituteMenuBase {
   @Override
   public List<SubstituteMenuItem> createMenuItems(@NotNull SubstituteMenuContext context) {
     context.getEditorMenuTrace().pushTraceInfo();
-    context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("default substitute menu for segment_clip. Generated from implicit smart reference attribute.", new SNodePointer("r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)", "6137278502450367724")));
+    context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("default substitute menu for clip_ref. Generated from implicit smart reference attribute.", new SNodePointer("r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)", "6137278502450367724")));
     try {
       return super.createMenuItems(context);
     } finally {
@@ -44,10 +44,10 @@ public class segment_clip_SubstituteMenu extends SubstituteMenuBase {
   }
 
 
-  public static class SMP_ReferenceScope_vvll6m_a extends ReferenceScopeSubstituteMenuPart {
+  public static class SMP_ReferenceScope_glomoq_a extends ReferenceScopeSubstituteMenuPart {
 
-    public SMP_ReferenceScope_vvll6m_a() {
-      super(MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, "music_specification_language.structure.segment_clip"), MetaAdapterFactory.getReferenceLink(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, 0x552bfe4802320cf5L, "clip"));
+    public SMP_ReferenceScope_glomoq_a() {
+      super(MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, "music_specification_language.structure.clip_ref"), MetaAdapterFactory.getReferenceLink(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, 0x552bfe4802320cf5L, "clip"));
     }
     @NotNull
     @Override
@@ -62,15 +62,15 @@ public class segment_clip_SubstituteMenu extends SubstituteMenuBase {
     }
 
   }
-  public class SMP_Subconcepts_vvll6m_b extends ConceptMenusPart<SubstituteMenuItem, SubstituteMenuContext> {
+  public class SMP_Subconcepts_glomoq_b extends ConceptMenusPart<SubstituteMenuItem, SubstituteMenuContext> {
     protected Collection getConcepts(final SubstituteMenuContext _context) {
-      return ConceptDescendantsCache.getInstance().getDirectDescendants(MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, "music_specification_language.structure.segment_clip"));
+      return ConceptDescendantsCache.getInstance().getDirectDescendants(MetaAdapterFactory.getConcept(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, "music_specification_language.structure.clip_ref"));
     }
     @NotNull
     @Override
     public List<SubstituteMenuItem> createItems(SubstituteMenuContext context) {
       context.getEditorMenuTrace().pushTraceInfo();
-      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("include menus for all the direct subconcepts of " + "segment_clip", null));
+      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("include menus for all the direct subconcepts of " + "clip_ref", null));
       try {
         return super.createItems(context);
       } finally {

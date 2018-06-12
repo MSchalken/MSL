@@ -27,7 +27,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       case 3:
         return Collections.<ConceptEditor>singletonList(new SegmentDefinition_Editor());
       case 4:
-        return Collections.<ConceptEditor>singletonList(new segment_clip_Editor());
+        return Collections.<ConceptEditor>singletonList(new clip_ref_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -40,7 +40,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     SAbstractConcept cncpt_a0d = concept;
     switch (index_xbvbvu_a0d.index(cncpt_a0d)) {
       case 0:
-        return Collections.<SubstituteMenu>singletonList(new segment_clip_SubstituteMenu());
+        return Collections.<SubstituteMenu>singletonList(new clip_ref_SubstituteMenu());
       default:
     }
     return Collections.<SubstituteMenu>emptyList();

@@ -13,7 +13,7 @@ public final class LanguageConceptSwitch {
   public static final int InstrumentDefinition = 1;
   public static final int MSLProgram = 2;
   public static final int SegmentDefinition = 3;
-  public static final int segment_clip = 4;
+  public static final int clip_ref = 4;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL);
@@ -21,7 +21,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x552bfe4802320cccL, InstrumentDefinition);
     builder.put(0x552bfe4802320cbeL, MSLProgram);
     builder.put(0x552bfe4802320ce5L, SegmentDefinition);
-    builder.put(0x552bfe4802320cecL, segment_clip);
+    builder.put(0x552bfe4802320cecL, clip_ref);
     myIndex = builder.seal();
   }
 

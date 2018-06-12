@@ -134,18 +134,18 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="clips" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="5kFZ$w2cwNG" resolve="segment_clip" />
+      <ref role="20lvS9" node="5kFZ$w2cwNG" resolve="clip_ref" />
+    </node>
+    <node concept="1TJgyi" id="4NDpzA$I66D" role="1TKVEl">
+      <property role="IQ2nx" value="5542073214218822057" />
+      <property role="TrG5h" value="length" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="1TIwiD" id="5kFZ$w2cwNG">
     <property role="EcuMT" value="6137278502450367724" />
-    <property role="TrG5h" value="segment_clip" />
+    <property role="TrG5h" value="clip_ref" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5kFZ$w2cwNJ" role="1TKVEl">
-      <property role="IQ2nx" value="6137278502450367727" />
-      <property role="TrG5h" value="multiplicity" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
     <node concept="1TJgyj" id="5kFZ$w2cwNP" role="1TKVEi">
       <property role="IQ2ns" value="6137278502450367733" />
       <property role="20lmBu" value="reference" />

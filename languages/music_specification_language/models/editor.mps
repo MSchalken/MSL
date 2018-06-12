@@ -224,7 +224,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4NDpzA$H4ud">
-    <ref role="1XX52x" to="d1ne:5kFZ$w2cwNG" resolve="segment_clip" />
+    <ref role="1XX52x" to="d1ne:5kFZ$w2cwNG" resolve="clip_ref" />
     <node concept="3EZMnI" id="4NDpzA$H4uf" role="2wV5jI">
       <node concept="2iRfu4" id="4NDpzA$H4ug" role="2iSdaV" />
       <node concept="1iCGBv" id="4NDpzA$H4ul" role="3EZMnx">
@@ -235,12 +235,6 @@
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="4NDpzA$H4uG" role="3EZMnx">
-        <property role="3F0ifm" value="*" />
-      </node>
-      <node concept="3F0A7n" id="4NDpzA$H4uS" role="3EZMnx">
-        <ref role="1NtTu8" to="d1ne:5kFZ$w2cwNJ" resolve="multiplicity" />
       </node>
     </node>
   </node>
@@ -259,6 +253,37 @@
         <property role="3F0ifm" value=":" />
         <ref role="1k5W1q" node="4NDpzA$HM4j" resolve="Punctuation" />
         <node concept="ljvvj" id="4NDpzA$H4vN" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4NDpzA$I66O" role="3EZMnx">
+        <property role="3F0ifm" value="beats" />
+        <ref role="1k5W1q" node="4NDpzA$HM3P" resolve="Keyword" />
+        <node concept="lj46D" id="4NDpzA$I67S" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4NDpzA$I678" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <ref role="1k5W1q" node="4NDpzA$HM4j" resolve="Punctuation" />
+      </node>
+      <node concept="3F0A7n" id="4NDpzA$I67E" role="3EZMnx">
+        <ref role="1NtTu8" to="d1ne:4NDpzA$I66D" resolve="length" />
+        <node concept="ljvvj" id="4NDpzA$I67Q" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4NDpzA$I688" role="3EZMnx">
+        <property role="3F0ifm" value="clips" />
+        <ref role="1k5W1q" node="4NDpzA$HM3P" resolve="Keyword" />
+        <node concept="lj46D" id="4NDpzA$I68Q" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4NDpzA$I68A" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <ref role="1k5W1q" node="4NDpzA$HM4j" resolve="Punctuation" />
+        <node concept="ljvvj" id="4NDpzA$I68S" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>

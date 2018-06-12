@@ -13,7 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_InstrumentDefinition;
   private ConceptPresentation props_MSLProgram;
   private ConceptPresentation props_SegmentDefinition;
-  private ConceptPresentation props_segment_clip;
+  private ConceptPresentation props_clip_ref;
 
   @Override
   @Nullable
@@ -51,13 +51,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_SegmentDefinition = cpb.create();
         }
         return props_SegmentDefinition;
-      case LanguageConceptSwitch.segment_clip:
-        if (props_segment_clip == null) {
+      case LanguageConceptSwitch.clip_ref:
+        if (props_clip_ref == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.presentationByReference(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, 0x552bfe4802320cf5L, "clip", "", "");
-          props_segment_clip = cpb.create();
+          props_clip_ref = cpb.create();
         }
-        return props_segment_clip;
+        return props_clip_ref;
     }
     return null;
   }
