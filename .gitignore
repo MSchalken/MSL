@@ -6,28 +6,28 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
+.mps/**/workspace.xml
+.mps/**/tasks.xml
+.mps/dictionaries
 
 # Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.xml
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
+.mps/**/dataSources/
+.mps/**/dataSources.ids
+.mps/**/dataSources.xml
+.mps/**/dataSources.local.xml
+.mps/**/sqlDataSources.xml
+.mps/**/dynamic.xml
+.mps/**/uiDesigner.xml
 
 # Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
+.mps/**/gradle.xml
+.mps/**/libraries
 
 # CMake
 cmake-build-debug/
 
 # Mongo Explorer plugin:
-.idea/**/mongoSettings.xml
+.mps/**/mongoSettings.xml
 
 ## File-based project format:
 *.iws
@@ -44,7 +44,7 @@ cmake-build-debug/
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-.idea/replstate.xml
+.mps/replstate.xml
 
 # Ruby plugin and RubyMine
 /.rakeTasks
@@ -59,13 +59,13 @@ fabric.properties
 # Ignores the whole .idea folder and all .iml files
 # See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
 
-.idea/
+.mps/
 
 # Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
 
 *.iml
 modules.xml
-.idea/misc.xml
+.mps/misc.xml
 *.ipr
 
 
