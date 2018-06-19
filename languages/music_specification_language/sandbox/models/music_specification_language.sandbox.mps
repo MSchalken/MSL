@@ -100,5 +100,168 @@
       </node>
     </node>
   </node>
+  <node concept="1n6vbQ" id="eR_204Jrvt">
+    <property role="TrG5h" value="Father Jack" />
+    <property role="1n6va9" value="120" />
+    <node concept="1n6va4" id="eR_204Jrvu" role="1n6va0">
+      <property role="TrG5h" value="piano" />
+      <property role="3Cni5I" value="piano1" />
+    </node>
+    <node concept="1n6va7" id="eR_204Jrvv" role="1n6vad">
+      <property role="TrG5h" value="verse1" />
+      <property role="1n6vah" value="x-x-x-x-" />
+      <property role="1n6vak" value="c4d4e4c4" />
+      <ref role="1n64gc" node="eR_204Jrvu" resolve="piano" />
+    </node>
+    <node concept="1n6va7" id="eR_204Jrvz" role="1n6vad">
+      <property role="TrG5h" value="verse2" />
+      <property role="1n6vah" value="x-x-x__-" />
+      <property role="1n6vak" value="e4f4g4" />
+      <ref role="1n64gc" node="eR_204Jrvu" resolve="piano" />
+    </node>
+    <node concept="1n6va7" id="eR_204JrvA" role="1n6vad">
+      <property role="TrG5h" value="verse3" />
+      <property role="1n6vak" value="g4a4g4f4e4c4" />
+      <property role="1n6vah" value="xxxxx_x_" />
+      <ref role="1n64gc" node="eR_204Jrvu" resolve="piano" />
+    </node>
+    <node concept="1n6va7" id="eR_204JrvE" role="1n6vad">
+      <property role="TrG5h" value="verse4" />
+      <property role="1n6vah" value="x-x-x__-" />
+      <property role="1n6vak" value="c4g3c4" />
+      <ref role="1n64gc" node="eR_204Jrvu" resolve="piano" />
+    </node>
+    <node concept="1n6vaH" id="eR_204Jrvw" role="1n6vab">
+      <property role="TrG5h" value="seg1" />
+      <property role="3Ckgug" value="8" />
+      <node concept="1n6va$" id="eR_204Jrwa" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204Jrvv" resolve="verse1" />
+      </node>
+    </node>
+    <node concept="1n6vaH" id="eR_204JrvM" role="1n6vab">
+      <property role="TrG5h" value="seg2" />
+      <property role="3Ckgug" value="8" />
+      <node concept="1n6va$" id="eR_204Jrwk" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204Jrvz" resolve="verse2" />
+      </node>
+    </node>
+    <node concept="1n6vaH" id="eR_204JrvS" role="1n6vab">
+      <property role="TrG5h" value="seg3" />
+      <property role="3Ckgug" value="8" />
+      <node concept="1n6va$" id="eR_204Jrws" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204JrvA" resolve="verse3" />
+      </node>
+    </node>
+    <node concept="1n6vaH" id="eR_204Jrw0" role="1n6vab">
+      <property role="TrG5h" value="seg4" />
+      <property role="3Ckgug" value="8" />
+      <node concept="1n6va$" id="eR_204Jrwv" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204JrvE" resolve="verse4" />
+      </node>
+    </node>
+    <node concept="3Ck0WK" id="eR_204JrvJ" role="3Ck0WV">
+      <ref role="3Ck0WN" node="eR_204Jrvw" resolve="seg1" />
+    </node>
+    <node concept="3Ck0WK" id="eR_204Jrw_" role="3Ck0WV">
+      <ref role="3Ck0WN" node="eR_204JrvM" resolve="seg2" />
+    </node>
+    <node concept="3Ck0WK" id="eR_204JrwM" role="3Ck0WV">
+      <ref role="3Ck0WN" node="eR_204JrvS" resolve="seg3" />
+    </node>
+    <node concept="3Ck0WK" id="eR_204JrwW" role="3Ck0WV">
+      <ref role="3Ck0WN" node="eR_204Jrw0" resolve="seg4" />
+    </node>
+  </node>
+  <node concept="1n6vbQ" id="eR_204Jrx2">
+    <property role="TrG5h" value="Father Jack canon" />
+    <property role="1n6va9" value="120" />
+    <node concept="1n6va4" id="eR_204Jrx3" role="1n6va0">
+      <property role="TrG5h" value="piano" />
+      <property role="3Cni5I" value="piano1" />
+    </node>
+    <node concept="1n6va7" id="eR_204Jrx4" role="1n6vad">
+      <property role="TrG5h" value="verse1" />
+      <property role="1n6vah" value="x-x-x-x-" />
+      <property role="1n6vak" value="c4d4e4c4" />
+      <ref role="1n64gc" node="eR_204Jrx3" resolve="piano" />
+    </node>
+    <node concept="1n6va7" id="eR_204Jrx5" role="1n6vad">
+      <property role="TrG5h" value="verse2" />
+      <property role="1n6vah" value="x-x-x__-" />
+      <property role="1n6vak" value="e4f4g4" />
+      <ref role="1n64gc" node="eR_204Jrx3" resolve="piano" />
+    </node>
+    <node concept="1n6va7" id="eR_204Jrx6" role="1n6vad">
+      <property role="TrG5h" value="verse3" />
+      <property role="1n6vak" value="g4a4g4f4e4c4" />
+      <property role="1n6vah" value="xxxxx_x_" />
+      <ref role="1n64gc" node="eR_204Jrx3" resolve="piano" />
+    </node>
+    <node concept="1n6va7" id="eR_204Jrx7" role="1n6vad">
+      <property role="TrG5h" value="verse4" />
+      <property role="1n6vah" value="x-x-x__-" />
+      <property role="1n6vak" value="c4g3c4" />
+      <ref role="1n64gc" node="eR_204Jrx3" resolve="piano" />
+    </node>
+    <node concept="1n6vaH" id="eR_204Jrx8" role="1n6vab">
+      <property role="TrG5h" value="seg1" />
+      <property role="3Ckgug" value="8" />
+      <node concept="1n6va$" id="eR_204Jrx9" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204Jrx4" resolve="verse1" />
+      </node>
+    </node>
+    <node concept="1n6vaH" id="eR_204Jrxa" role="1n6vab">
+      <property role="TrG5h" value="seg2" />
+      <property role="3Ckgug" value="8" />
+      <node concept="1n6va$" id="eR_204Jrxb" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204Jrx5" resolve="verse2" />
+      </node>
+      <node concept="1n6va$" id="eR_204Jrxn" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204Jrvv" resolve="verse1" />
+      </node>
+    </node>
+    <node concept="1n6vaH" id="eR_204Jrxc" role="1n6vab">
+      <property role="TrG5h" value="seg3" />
+      <property role="3Ckgug" value="8" />
+      <node concept="1n6va$" id="eR_204Jrxd" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204Jrx6" resolve="verse3" />
+      </node>
+      <node concept="1n6va$" id="eR_204Jrxu" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204Jrx4" resolve="verse1" />
+      </node>
+    </node>
+    <node concept="1n6vaH" id="eR_204Jrxe" role="1n6vab">
+      <property role="TrG5h" value="seg4" />
+      <property role="3Ckgug" value="8" />
+      <node concept="1n6va$" id="eR_204JrxX" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204JrvA" resolve="verse3" />
+      </node>
+      <node concept="1n6va$" id="eR_204Jrxf" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204Jrx7" resolve="verse4" />
+      </node>
+    </node>
+    <node concept="1n6vaH" id="eR_204Jry1" role="1n6vab">
+      <property role="TrG5h" value="seg5" />
+      <property role="3Ckgug" value="8" />
+      <node concept="1n6va$" id="eR_204Jryj" role="1n6vaP">
+        <ref role="1n6vaX" node="eR_204JrvE" resolve="verse4" />
+      </node>
+    </node>
+    <node concept="3Ck0WK" id="eR_204Jrxg" role="3Ck0WV">
+      <ref role="3Ck0WN" node="eR_204Jrx8" resolve="seg1" />
+    </node>
+    <node concept="3Ck0WK" id="eR_204Jrxh" role="3Ck0WV">
+      <ref role="3Ck0WN" node="eR_204Jrxa" resolve="seg2" />
+    </node>
+    <node concept="3Ck0WK" id="eR_204Jrxi" role="3Ck0WV">
+      <ref role="3Ck0WN" node="eR_204Jrxc" resolve="seg3" />
+    </node>
+    <node concept="3Ck0WK" id="eR_204Jrxj" role="3Ck0WV">
+      <ref role="3Ck0WN" node="eR_204Jrxe" resolve="seg4" />
+    </node>
+    <node concept="3Ck0WK" id="eR_204Jryu" role="3Ck0WV">
+      <ref role="3Ck0WN" node="eR_204Jry1" resolve="seg5" />
+    </node>
+  </node>
 </model>
 
