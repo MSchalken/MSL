@@ -64,18 +64,18 @@
     <node concept="1n6va7" id="5kFZ$w2cRyI" role="1n6vad">
       <property role="TrG5h" value="guitar verse 1" />
       <property role="1n6vah" value="x-x-" />
-      <property role="1n6vak" value="c4d4" />
+      <property role="1n6vak" value="c4d4eb4" />
       <ref role="1n64gc" node="5kFZ$w2cZY7" resolve="Guitar" />
     </node>
     <node concept="1n6va7" id="4NDpzA$I66s" role="1n6vad">
       <property role="TrG5h" value="flute chorus" />
       <property role="1n6vah" value="xxxx" />
-      <property role="1n6vak" value="c5" />
+      <property role="1n6vak" value="c5c4" />
       <ref role="1n64gc" node="4NDpzA$I66o" resolve="Flute" />
     </node>
     <node concept="1n6va7" id="4NDpzA$HwIO" role="1n6vad">
       <property role="TrG5h" value="bassline" />
-      <property role="1n6vah" value="-x-x-x-x" />
+      <property role="1n6vah" value="-x-x" />
       <property role="1n6vak" value="c4e4c4g4" />
       <ref role="1n64gc" node="5kFZ$w2cT5N" resolve="BassGuitar" />
     </node>

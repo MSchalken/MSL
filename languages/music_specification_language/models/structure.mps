@@ -115,7 +115,7 @@
     <node concept="1TJgyi" id="5kFZ$w2cwNp" role="1TKVEl">
       <property role="IQ2nx" value="6137278502450367705" />
       <property role="TrG5h" value="pattern" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="eR_204Hh_4" resolve="pattern" />
     </node>
     <node concept="1TJgyi" id="5kFZ$w2cwNs" role="1TKVEl">
       <property role="IQ2nx" value="6137278502450367708" />
@@ -178,7 +178,11 @@
   </node>
   <node concept="Az7Fb" id="4OPM89OYN7T">
     <property role="TrG5h" value="notes" />
-    <property role="FLfZY" value="([a-gA-G][1-7])+" />
+    <property role="FLfZY" value="([a-gA-G](?:b|#)?[0-9])+" />
+  </node>
+  <node concept="Az7Fb" id="eR_204Hh_4">
+    <property role="TrG5h" value="pattern" />
+    <property role="FLfZY" value="[x_-]+" />
   </node>
 </model>
 
