@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -117,7 +120,7 @@
     <node concept="1TJgyi" id="5kFZ$w2cwNs" role="1TKVEl">
       <property role="IQ2nx" value="6137278502450367708" />
       <property role="TrG5h" value="notes" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="4OPM89OYN7T" resolve="notes" />
     </node>
     <node concept="1TJgyj" id="5kFZ$w2cVD4" role="1TKVEi">
       <property role="IQ2ns" value="6137278502450477636" />
@@ -172,6 +175,10 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5kFZ$w2cwN_" resolve="SegmentDefinition" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="4OPM89OYN7T">
+    <property role="TrG5h" value="notes" />
+    <property role="FLfZY" value="([a-gA-G][1-7])+" />
   </node>
 </model>
 
