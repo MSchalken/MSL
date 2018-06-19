@@ -7,8 +7,8 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class clip_ref_Editor extends DefaultNodeEditor {
+public class SegmentReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new clip_ref_EditorBuilder_a(editorContext, node).createCell();
+    return new SegmentReference_EditorBuilder_a(editorContext, node).createCell();
   }
 }

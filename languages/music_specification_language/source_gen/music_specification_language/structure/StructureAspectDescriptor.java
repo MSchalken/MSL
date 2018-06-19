@@ -13,10 +13,11 @@ import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptClipDefinition = createDescriptorForClipDefinition();
+  /*package*/ final ConceptDescriptor myConceptClipReference = createDescriptorForClipReference();
   /*package*/ final ConceptDescriptor myConceptInstrumentDefinition = createDescriptorForInstrumentDefinition();
   /*package*/ final ConceptDescriptor myConceptMSLProgram = createDescriptorForMSLProgram();
   /*package*/ final ConceptDescriptor myConceptSegmentDefinition = createDescriptorForSegmentDefinition();
-  /*package*/ final ConceptDescriptor myConceptclip_ref = createDescriptorForclip_ref();
+  /*package*/ final ConceptDescriptor myConceptSegmentReference = createDescriptorForSegmentReference();
   private final LanguageConceptSwitch myConceptIndex;
 
   public StructureAspectDescriptor() {
@@ -25,7 +26,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptClipDefinition, myConceptInstrumentDefinition, myConceptMSLProgram, myConceptSegmentDefinition, myConceptclip_ref);
+    return Arrays.asList(myConceptClipDefinition, myConceptClipReference, myConceptInstrumentDefinition, myConceptMSLProgram, myConceptSegmentDefinition, myConceptSegmentReference);
   }
 
   @Override
@@ -34,14 +35,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myConceptIndex.index(id)) {
       case LanguageConceptSwitch.ClipDefinition:
         return myConceptClipDefinition;
+      case LanguageConceptSwitch.ClipReference:
+        return myConceptClipReference;
       case LanguageConceptSwitch.InstrumentDefinition:
         return myConceptInstrumentDefinition;
       case LanguageConceptSwitch.MSLProgram:
         return myConceptMSLProgram;
       case LanguageConceptSwitch.SegmentDefinition:
         return myConceptSegmentDefinition;
-      case LanguageConceptSwitch.clip_ref:
-        return myConceptclip_ref;
+      case LanguageConceptSwitch.SegmentReference:
+        return myConceptSegmentReference;
       default:
         return null;
     }
@@ -62,6 +65,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("clip");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForClipReference() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("music_specification_language", "ClipReference", 0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL);
+    b.class_(false, false, false);
+    b.origin("r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367724");
+    b.associate("clip", 0x552bfe4802320cf5L).target(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ccfL).optional(false).origin("6137278502450367733").done();
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForInstrumentDefinition() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("music_specification_language", "InstrumentDefinition", 0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cccL);
     b.class_(false, false, false);
@@ -80,6 +90,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("instruments", 0x552bfe4802320cc8L).target(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cccL).optional(false).ordered(true).multiple(true).origin("6137278502450367688").done();
     b.aggregate("clips", 0x552bfe4802320cc5L).target(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ccfL).optional(false).ordered(true).multiple(true).origin("6137278502450367685").done();
     b.aggregate("segments", 0x552bfe4802320cc3L).target(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ce5L).optional(false).ordered(true).multiple(true).origin("6137278502450367683").done();
+    b.aggregate("song", 0x4ce96639a4b96902L).target(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x4ce96639a4b96909L).optional(false).ordered(true).multiple(true).origin("5542073214218889474").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSegmentDefinition() {
@@ -92,11 +103,11 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("segment");
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForclip_ref() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("music_specification_language", "clip_ref", 0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL);
+  private static ConceptDescriptor createDescriptorForSegmentReference() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("music_specification_language", "SegmentReference", 0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x4ce96639a4b96909L);
     b.class_(false, false, false);
-    b.origin("r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/6137278502450367724");
-    b.associate("clip", 0x552bfe4802320cf5L).target(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ccfL).optional(false).origin("6137278502450367733").done();
+    b.origin("r:5aeed1a8-bae6-4890-a139-6d61c203fec3(music_specification_language.structure)/5542073214218889481");
+    b.associate("segment", 0x4ce96639a4b9690aL).target(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320ce5L).optional(false).origin("5542073214218889482").done();
     return b.create();
   }
 }

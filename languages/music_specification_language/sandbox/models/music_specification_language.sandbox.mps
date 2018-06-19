@@ -21,7 +21,7 @@
         <property id="6137278502450367708" name="notes" index="1n6vak" />
         <reference id="6137278502450477636" name="instrument" index="1n64gc" />
       </concept>
-      <concept id="6137278502450367724" name="music_specification_language.structure.clip_ref" flags="ng" index="1n6va$">
+      <concept id="6137278502450367724" name="music_specification_language.structure.ClipReference" flags="ng" index="1n6va$">
         <reference id="6137278502450367733" name="clip" index="1n6vaX" />
       </concept>
       <concept id="6137278502450367717" name="music_specification_language.structure.SegmentDefinition" flags="ng" index="1n6vaH">
@@ -33,12 +33,22 @@
         <child id="6137278502450367688" name="instruments" index="1n6va0" />
         <child id="6137278502450367683" name="segments" index="1n6vab" />
         <child id="6137278502450367685" name="clips" index="1n6vad" />
+        <child id="5542073214218889474" name="song" index="3Ck0WV" />
+      </concept>
+      <concept id="5542073214218889481" name="music_specification_language.structure.SegmentReference" flags="ng" index="3Ck0WK">
+        <reference id="5542073214218889482" name="segment" index="3Ck0WN" />
       </concept>
     </language>
   </registry>
   <node concept="1n6vbQ" id="5kFZ$w2cRyG">
     <property role="TrG5h" value="DemoMusic" />
     <property role="1n6va9" value="120" />
+    <node concept="3Ck0WK" id="4Mjiy6CMB0Q" role="3Ck0WV">
+      <ref role="3Ck0WN" node="5kFZ$w2cRyJ" resolve="intro" />
+    </node>
+    <node concept="3Ck0WK" id="4Mjiy6CMB0K" role="3Ck0WV">
+      <ref role="3Ck0WN" node="4NDpzA$HwIs" resolve="chorus" />
+    </node>
     <node concept="1n6va4" id="5kFZ$w2cZY7" role="1n6va0">
       <property role="TrG5h" value="Guitar" />
       <property role="3Cni5I" value="acoustic_guitar" />

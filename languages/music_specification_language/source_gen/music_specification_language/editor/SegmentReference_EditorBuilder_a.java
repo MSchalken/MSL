@@ -39,11 +39,11 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellMenu.SPropertySubstituteInfo;
 import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
 
-/*package*/ class clip_ref_EditorBuilder_a extends AbstractEditorBuilder {
+/*package*/ class SegmentReference_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
   private SNode myNode;
 
-  public clip_ref_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
+  public SegmentReference_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
     super(context);
     myNode = node;
   }
@@ -55,26 +55,26 @@ import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
   }
 
   /*package*/ EditorCell createCell() {
-    return createCollection_9fv1c4_a();
+    return createCollection_cagwm2_a();
   }
 
-  private EditorCell createCollection_9fv1c4_a() {
+  private EditorCell createCollection_cagwm2_a() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
-    editorCell.setCellId("Collection_9fv1c4_a");
+    editorCell.setCellId("Collection_cagwm2_a");
     editorCell.setBig(true);
     editorCell.setCellContext(getCellFactory().getCellContext());
-    editorCell.addEditorCell(createRefCell_9fv1c4_a0());
+    editorCell.addEditorCell(createRefCell_cagwm2_a0());
     return editorCell;
   }
-  private EditorCell createRefCell_9fv1c4_a0() {
-    final SReferenceLink referenceLink = MetaAdapterFactory.getReferenceLink(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, 0x552bfe4802320cf5L, "clip");
+  private EditorCell createRefCell_cagwm2_a0() {
+    final SReferenceLink referenceLink = MetaAdapterFactory.getReferenceLink(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x4ce96639a4b96909L, 0x4ce96639a4b9690aL, "segment");
     SReferenceCellProvider provider = new SReferenceCellProvider(getNode(), referenceLink, getEditorContext()) {
       protected EditorCell createReferenceCell(final SNode targetNode) {
         EditorCell cell = getUpdateSession().updateReferencedNodeCell(new Computable<EditorCell>() {
           public EditorCell compute() {
-            return new clip_ref_EditorBuilder_a.Inline_Builder_9fv1c4_a0a(getEditorContext(), getNode(), targetNode).createCell();
+            return new SegmentReference_EditorBuilder_a.Inline_Builder_cagwm2_a0a(getEditorContext(), getNode(), targetNode).createCell();
           }
-        }, targetNode, "clip");
+        }, targetNode, "segment");
         CellUtil.setupIDeprecatableStyles(targetNode, cell);
         setSemanticNodeToCells(cell, getNode());
         installDeleteActions_notnull_smartReference(cell);
@@ -89,12 +89,12 @@ import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
       }
     };
 
-    provider.setNoTargetText("<no clip>");
+    provider.setNoTargetText("<no segment>");
     EditorCell editorCell = provider.createCell();
 
     if (editorCell.getRole() == null) {
       editorCell.setReferenceCell(true);
-      editorCell.setRole("clip");
+      editorCell.setRole("segment");
     }
     editorCell.setSubstituteInfo(new SReferenceSubstituteInfoSmartReferenceDecorator(new SReferenceSubstituteInfo(editorCell, referenceLink)));
     Iterable<SNode> referenceAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da51L, "jetbrains.mps.lang.core.structure.LinkAttribute"));
@@ -109,19 +109,19 @@ import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
     } else
     return editorCell;
   }
-  /*package*/ static class Inline_Builder_9fv1c4_a0a extends AbstractEditorBuilder {
+  /*package*/ static class Inline_Builder_cagwm2_a0a extends AbstractEditorBuilder {
     @NotNull
     private SNode myNode;
     private SNode myReferencingNode;
 
-    /*package*/ Inline_Builder_9fv1c4_a0a(@NotNull EditorContext context, SNode referencingNode, @NotNull SNode node) {
+    /*package*/ Inline_Builder_cagwm2_a0a(@NotNull EditorContext context, SNode referencingNode, @NotNull SNode node) {
       super(context);
       myReferencingNode = referencingNode;
       myNode = node;
     }
 
     /*package*/ EditorCell createCell() {
-      return createProperty_9fv1c4_a0a0();
+      return createProperty_cagwm2_a0a0();
     }
 
     @NotNull
@@ -130,7 +130,7 @@ import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
       return myNode;
     }
 
-    private EditorCell createProperty_9fv1c4_a0a0() {
+    private EditorCell createProperty_cagwm2_a0a0() {
       getCellFactory().pushCellContext();
       try {
         final SProperty property = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");

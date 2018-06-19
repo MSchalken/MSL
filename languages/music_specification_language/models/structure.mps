@@ -77,6 +77,13 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="5kFZ$w2cwN_" resolve="SegmentDefinition" />
     </node>
+    <node concept="1TJgyj" id="4NDpzA$Im$2" role="1TKVEi">
+      <property role="IQ2ns" value="5542073214218889474" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="song" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="4NDpzA$Im$9" resolve="SegmentReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5kFZ$w2cwNc">
     <property role="EcuMT" value="6137278502450367692" />
@@ -134,7 +141,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="clips" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="5kFZ$w2cwNG" resolve="clip_ref" />
+      <ref role="20lvS9" node="5kFZ$w2cwNG" resolve="ClipReference" />
     </node>
     <node concept="1TJgyi" id="4NDpzA$I66D" role="1TKVEl">
       <property role="IQ2nx" value="5542073214218822057" />
@@ -144,7 +151,7 @@
   </node>
   <node concept="1TIwiD" id="5kFZ$w2cwNG">
     <property role="EcuMT" value="6137278502450367724" />
-    <property role="TrG5h" value="clip_ref" />
+    <property role="TrG5h" value="ClipReference" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5kFZ$w2cwNP" role="1TKVEi">
       <property role="IQ2ns" value="6137278502450367733" />
@@ -152,6 +159,18 @@
       <property role="20kJfa" value="clip" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5kFZ$w2cwNf" resolve="ClipDefinition" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NDpzA$Im$9">
+    <property role="EcuMT" value="5542073214218889481" />
+    <property role="TrG5h" value="SegmentReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NDpzA$Im$a" role="1TKVEi">
+      <property role="IQ2ns" value="5542073214218889482" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="segment" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5kFZ$w2cwN_" resolve="SegmentDefinition" />
     </node>
   </node>
 </model>

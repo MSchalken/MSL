@@ -23,6 +23,7 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -137,6 +138,32 @@
         <ref role="1NtTu8" to="d1ne:5kFZ$w2cwN3" resolve="segments" />
         <node concept="2iRkQZ" id="5kFZ$w2cRyZ" role="2czzBx" />
       </node>
+      <node concept="3F0ifn" id="4Mjiy6CMH04" role="3EZMnx">
+        <node concept="pVoyu" id="4Mjiy6CMH0$" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4Mjiy6CM6y$" role="3EZMnx">
+        <property role="3F0ifm" value="Song" />
+        <ref role="1k5W1q" node="4NDpzA$HM3P" resolve="Keyword" />
+        <node concept="pVoyu" id="4Mjiy6CM6z0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4Mjiy6CM6zz" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <ref role="1k5W1q" node="4NDpzA$HM4j" resolve="Punctuation" />
+      </node>
+      <node concept="3F2HdR" id="4NDpzA$IArX" role="3EZMnx">
+        <ref role="1NtTu8" to="d1ne:4NDpzA$Im$2" resolve="song" />
+        <node concept="2iRkQZ" id="4NDpzA$IAsr" role="2czzBx" />
+        <node concept="pVoyu" id="4NDpzA$IAsp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4Mjiy6CM6z2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5kFZ$w2cT66">
@@ -224,7 +251,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4NDpzA$H4ud">
-    <ref role="1XX52x" to="d1ne:5kFZ$w2cwNG" resolve="clip_ref" />
+    <ref role="1XX52x" to="d1ne:5kFZ$w2cwNG" resolve="ClipReference" />
     <node concept="3EZMnI" id="4NDpzA$H4uf" role="2wV5jI">
       <node concept="2iRfu4" id="4NDpzA$H4ug" role="2iSdaV" />
       <node concept="1iCGBv" id="4NDpzA$H4ul" role="3EZMnx">
@@ -308,6 +335,21 @@
       <property role="TrG5h" value="Punctuation" />
       <node concept="VechU" id="4NDpzA$HM4q" role="3F10Kt">
         <property role="Vb096" value="green" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4NDpzA$IAqv">
+    <ref role="1XX52x" to="d1ne:4NDpzA$Im$9" resolve="SegmentReference" />
+    <node concept="3EZMnI" id="4NDpzA$IAqx" role="2wV5jI">
+      <node concept="2iRfu4" id="4NDpzA$IAqy" role="2iSdaV" />
+      <node concept="1iCGBv" id="4NDpzA$IAqB" role="3EZMnx">
+        <ref role="1NtTu8" to="d1ne:4NDpzA$Im$a" resolve="segment" />
+        <node concept="1sVBvm" id="4NDpzA$IAqD" role="1sWHZn">
+          <node concept="3F0A7n" id="4NDpzA$IAqK" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

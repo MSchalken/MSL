@@ -10,18 +10,20 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int ClipDefinition = 0;
-  public static final int InstrumentDefinition = 1;
-  public static final int MSLProgram = 2;
-  public static final int SegmentDefinition = 3;
-  public static final int clip_ref = 4;
+  public static final int ClipReference = 1;
+  public static final int InstrumentDefinition = 2;
+  public static final int MSLProgram = 3;
+  public static final int SegmentDefinition = 4;
+  public static final int SegmentReference = 5;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL);
     builder.put(0x552bfe4802320ccfL, ClipDefinition);
+    builder.put(0x552bfe4802320cecL, ClipReference);
     builder.put(0x552bfe4802320cccL, InstrumentDefinition);
     builder.put(0x552bfe4802320cbeL, MSLProgram);
     builder.put(0x552bfe4802320ce5L, SegmentDefinition);
-    builder.put(0x552bfe4802320cecL, clip_ref);
+    builder.put(0x4ce96639a4b96909L, SegmentReference);
     myIndex = builder.seal();
   }
 

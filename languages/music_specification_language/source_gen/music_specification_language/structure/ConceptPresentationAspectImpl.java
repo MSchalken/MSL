@@ -10,10 +10,11 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_ClipDefinition;
+  private ConceptPresentation props_ClipReference;
   private ConceptPresentation props_InstrumentDefinition;
   private ConceptPresentation props_MSLProgram;
   private ConceptPresentation props_SegmentDefinition;
-  private ConceptPresentation props_clip_ref;
+  private ConceptPresentation props_SegmentReference;
 
   @Override
   @Nullable
@@ -28,6 +29,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ClipDefinition = cpb.create();
         }
         return props_ClipDefinition;
+      case LanguageConceptSwitch.ClipReference:
+        if (props_ClipReference == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByReference(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, 0x552bfe4802320cf5L, "clip", "", "");
+          props_ClipReference = cpb.create();
+        }
+        return props_ClipReference;
       case LanguageConceptSwitch.InstrumentDefinition:
         if (props_InstrumentDefinition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -51,13 +59,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_SegmentDefinition = cpb.create();
         }
         return props_SegmentDefinition;
-      case LanguageConceptSwitch.clip_ref:
-        if (props_clip_ref == null) {
+      case LanguageConceptSwitch.SegmentReference:
+        if (props_SegmentReference == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByReference(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x552bfe4802320cecL, 0x552bfe4802320cf5L, "clip", "", "");
-          props_clip_ref = cpb.create();
+          cpb.presentationByReference(0xf9e4b29d3c894af7L, 0x8f5f5c06b22ba00bL, 0x4ce96639a4b96909L, 0x4ce96639a4b9690aL, "segment", "", "");
+          props_SegmentReference = cpb.create();
         }
-        return props_clip_ref;
+        return props_SegmentReference;
     }
     return null;
   }
