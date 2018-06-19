@@ -14,6 +14,11 @@
         </modelRoot>
       </models>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)</dependency>
+        <dependency reexport="false">d328e95a-2ef2-453a-8f49-f66ba03c4551(org.mar9000.mps.ecmascript#201656743169476281)</dependency>
+        <dependency reexport="false">8b4ab1de-2aad-4e60-8dee-350cb83d3086(org.mar9000.mps.ecmascript.runtime)</dependency>
+      </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="6" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -31,16 +36,25 @@
         <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="11" />
         <language slang="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" version="0" />
         <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
+        <language slang="l:a4829704-6b1b-4b3f-8122-a4a2e6ac90ff:org.mar9000.mps.ecmascript" version="0" />
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
+        <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
+        <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />
+        <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+        <module reference="642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)" version="0" />
+        <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
         <module reference="f9e4b29d-3c89-4af7-8f5f-5c06b22ba00b(music_specification_language)" version="0" />
         <module reference="fd2f6cf9-b680-413e-89d4-07968ccd560a(music_specification_language#01)" version="0" />
         <module reference="528db335-3aa6-48b5-a680-2e438747be49(music_specification_language.runtime)" version="0" />
+        <module reference="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff(org.mar9000.mps.ecmascript)" version="0" />
+        <module reference="d328e95a-2ef2-453a-8f49-f66ba03c4551(org.mar9000.mps.ecmascript#201656743169476281)" version="0" />
+        <module reference="8b4ab1de-2aad-4e60-8dee-350cb83d3086(org.mar9000.mps.ecmascript.runtime)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -48,6 +62,8 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">d328e95a-2ef2-453a-8f49-f66ba03c4551(org.mar9000.mps.ecmascript#201656743169476281)</dependency>
+    <dependency reexport="false">8b4ab1de-2aad-4e60-8dee-350cb83d3086(org.mar9000.mps.ecmascript.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="6" />
@@ -78,13 +94,22 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
+    <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
+    <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />
+    <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
+    <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="f9e4b29d-3c89-4af7-8f5f-5c06b22ba00b(music_specification_language)" version="0" />
+    <module reference="a4829704-6b1b-4b3f-8122-a4a2e6ac90ff(org.mar9000.mps.ecmascript)" version="0" />
+    <module reference="d328e95a-2ef2-453a-8f49-f66ba03c4551(org.mar9000.mps.ecmascript#201656743169476281)" version="0" />
+    <module reference="8b4ab1de-2aad-4e60-8dee-350cb83d3086(org.mar9000.mps.ecmascript.runtime)" version="0" />
   </dependencyVersions>
   <runtime>
     <dependency reexport="false">528db335-3aa6-48b5-a680-2e438747be49(music_specification_language.runtime)</dependency>
   </runtime>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>a4829704-6b1b-4b3f-8122-a4a2e6ac90ff(org.mar9000.mps.ecmascript)</extendedLanguage>
+  </extendedLanguages>
 </language>
 
