@@ -75,6 +75,9 @@
       <node concept="32BQzL" id="3Lzu1nYZ$f6" role="32BQzW">
         <property role="32BQzT" value="d4" />
       </node>
+      <node concept="32BQzL" id="1Z5nxOpImlG" role="32BQzW">
+        <property role="32BQzT" value="e4" />
+      </node>
     </node>
     <node concept="1n6va7" id="4NDpzA$I66s" role="1n6vad">
       <property role="TrG5h" value="flute chorus" />
@@ -115,59 +118,103 @@
   </node>
   <node concept="1n6vbQ" id="eR_204Jrvt">
     <property role="TrG5h" value="Father Jack" />
-    <property role="1n6va9" value="120" />
+    <property role="1n6va9" value="240" />
     <node concept="1n6va4" id="eR_204Jrvu" role="1n6va0">
       <property role="TrG5h" value="piano" />
-      <property role="3Cni5I" value="piano1" />
+      <property role="3Cni5I" value="0x18" />
     </node>
     <node concept="1n6va7" id="eR_204Jrvv" role="1n6vad">
       <property role="TrG5h" value="verse1" />
       <property role="1n6vah" value="x-x-x-x-" />
-      <property role="1n6vak" value="c4d4e4c4" />
       <ref role="1n64gc" node="eR_204Jrvu" resolve="piano" />
+      <node concept="32BQzL" id="1Z5nxOpIBY3" role="32BQzW">
+        <property role="32BQzT" value="c4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIBY5" role="32BQzW">
+        <property role="32BQzT" value="d4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIBY8" role="32BQzW">
+        <property role="32BQzT" value="e4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIBYc" role="32BQzW">
+        <property role="32BQzT" value="c4" />
+      </node>
     </node>
     <node concept="1n6va7" id="eR_204Jrvz" role="1n6vad">
       <property role="TrG5h" value="verse2" />
       <property role="1n6vah" value="x-x-x__-" />
-      <property role="1n6vak" value="e4f4g4" />
       <ref role="1n64gc" node="eR_204Jrvu" resolve="piano" />
+      <node concept="32BQzL" id="1Z5nxOpIBYh" role="32BQzW">
+        <property role="32BQzT" value="e4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIBYj" role="32BQzW">
+        <property role="32BQzT" value="f4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIBYm" role="32BQzW">
+        <property role="32BQzT" value="g4" />
+      </node>
     </node>
     <node concept="1n6va7" id="eR_204JrvA" role="1n6vad">
       <property role="TrG5h" value="verse3" />
-      <property role="1n6vak" value="g4a4g4f4e4c4" />
       <property role="1n6vah" value="xxxxx_x_" />
       <ref role="1n64gc" node="eR_204Jrvu" resolve="piano" />
+      <node concept="32BQzL" id="1Z5nxOpIBYq" role="32BQzW">
+        <property role="32BQzT" value="g4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIBYs" role="32BQzW">
+        <property role="32BQzT" value="a4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIBYv" role="32BQzW">
+        <property role="32BQzT" value="g4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIBYz" role="32BQzW">
+        <property role="32BQzT" value="f4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIBYC" role="32BQzW">
+        <property role="32BQzT" value="e4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIBYI" role="32BQzW">
+        <property role="32BQzT" value="c4" />
+      </node>
     </node>
     <node concept="1n6va7" id="eR_204JrvE" role="1n6vad">
       <property role="TrG5h" value="verse4" />
       <property role="1n6vah" value="x-x-x__-" />
-      <property role="1n6vak" value="c4g3c4" />
       <ref role="1n64gc" node="eR_204Jrvu" resolve="piano" />
+      <node concept="32BQzL" id="1Z5nxOpIC2J" role="32BQzW">
+        <property role="32BQzT" value="c4" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIC5p" role="32BQzW">
+        <property role="32BQzT" value="g3" />
+      </node>
+      <node concept="32BQzL" id="1Z5nxOpIC5q" role="32BQzW">
+        <property role="32BQzT" value="c4" />
+      </node>
     </node>
     <node concept="1n6vaH" id="eR_204Jrvw" role="1n6vab">
       <property role="TrG5h" value="seg1" />
-      <property role="3Ckgug" value="8" />
+      <property role="3Ckgug" value="16" />
       <node concept="1n6va$" id="eR_204Jrwa" role="1n6vaP">
         <ref role="1n6vaX" node="eR_204Jrvv" resolve="verse1" />
       </node>
     </node>
     <node concept="1n6vaH" id="eR_204JrvM" role="1n6vab">
       <property role="TrG5h" value="seg2" />
-      <property role="3Ckgug" value="8" />
+      <property role="3Ckgug" value="16" />
       <node concept="1n6va$" id="eR_204Jrwk" role="1n6vaP">
         <ref role="1n6vaX" node="eR_204Jrvz" resolve="verse2" />
       </node>
     </node>
     <node concept="1n6vaH" id="eR_204JrvS" role="1n6vab">
       <property role="TrG5h" value="seg3" />
-      <property role="3Ckgug" value="8" />
+      <property role="3Ckgug" value="16" />
       <node concept="1n6va$" id="eR_204Jrws" role="1n6vaP">
         <ref role="1n6vaX" node="eR_204JrvA" resolve="verse3" />
       </node>
     </node>
     <node concept="1n6vaH" id="eR_204Jrw0" role="1n6vab">
       <property role="TrG5h" value="seg4" />
-      <property role="3Ckgug" value="8" />
+      <property role="3Ckgug" value="16" />
       <node concept="1n6va$" id="eR_204Jrwv" role="1n6vaP">
         <ref role="1n6vaX" node="eR_204JrvE" resolve="verse4" />
       </node>
