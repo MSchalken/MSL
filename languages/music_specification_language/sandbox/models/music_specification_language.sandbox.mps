@@ -55,15 +55,15 @@
     </node>
     <node concept="1n6va4" id="5kFZ$w2cZY7" role="1n6va0">
       <property role="TrG5h" value="Guitar" />
-      <property role="3Cni5I" value="1" />
+      <property role="3Cni5I" value="0x18" />
     </node>
     <node concept="1n6va4" id="5kFZ$w2cT5N" role="1n6va0">
       <property role="TrG5h" value="BassGuitar" />
-      <property role="3Cni5I" value="2" />
+      <property role="3Cni5I" value="0x2B" />
     </node>
     <node concept="1n6va4" id="4NDpzA$I66o" role="1n6va0">
       <property role="TrG5h" value="Flute" />
-      <property role="3Cni5I" value="1" />
+      <property role="3Cni5I" value="0x49" />
     </node>
     <node concept="1n6va7" id="5kFZ$w2cRyI" role="1n6vad">
       <property role="TrG5h" value="guitar verse 1" />

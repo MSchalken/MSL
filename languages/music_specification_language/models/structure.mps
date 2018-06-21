@@ -200,12 +200,16 @@
     <property role="PDuV0" value="true" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="3Lzu1nYZ0Ze" role="M5hS2">
-      <property role="1uS6qo" value="guitar" />
-      <property role="1uS6qv" value="1" />
+      <property role="1uS6qo" value="Nylon Guitar" />
+      <property role="1uS6qv" value="0x18" />
     </node>
     <node concept="M4N5e" id="3Lzu1nYZ13x" role="M5hS2">
-      <property role="1uS6qo" value="bass" />
-      <property role="1uS6qv" value="2" />
+      <property role="1uS6qo" value="Contrabass" />
+      <property role="1uS6qv" value="0x2B" />
+    </node>
+    <node concept="M4N5e" id="1Z5nxOpHu_6" role="M5hS2">
+      <property role="1uS6qv" value="0x49" />
+      <property role="1uS6qo" value="Flute" />
     </node>
   </node>
   <node concept="1TIwiD" id="3Lzu1nYZ13$">
