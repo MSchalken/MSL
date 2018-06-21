@@ -10,8 +10,17 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
+        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <child id="1083172003582" name="member" index="M5hS2" />
+      </concept>
       <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
         <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+        <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -99,8 +108,8 @@
     </node>
     <node concept="1TJgyi" id="4NDpzA$H4tn" role="1TKVEl">
       <property role="IQ2nx" value="5542073214218553175" />
-      <property role="TrG5h" value="instrument_source" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="TrG5h" value="instrument" />
+      <ref role="AX2Wp" node="3Lzu1nYZ0Zd" resolve="Instrument" />
     </node>
   </node>
   <node concept="1TIwiD" id="5kFZ$w2cwNf">
@@ -117,17 +126,19 @@
       <property role="TrG5h" value="pattern" />
       <ref role="AX2Wp" node="eR_204Hh_4" resolve="pattern" />
     </node>
-    <node concept="1TJgyi" id="5kFZ$w2cwNs" role="1TKVEl">
-      <property role="IQ2nx" value="6137278502450367708" />
-      <property role="TrG5h" value="notes" />
-      <ref role="AX2Wp" node="4OPM89OYN7T" resolve="notes" />
-    </node>
     <node concept="1TJgyj" id="5kFZ$w2cVD4" role="1TKVEi">
       <property role="IQ2ns" value="6137278502450477636" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="instrument" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5kFZ$w2cwNc" resolve="InstrumentDefinition" />
+    </node>
+    <node concept="1TJgyj" id="3Lzu1nYZ13D" role="1TKVEi">
+      <property role="IQ2ns" value="4351453700837609705" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="notes" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3Lzu1nYZ13$" resolve="Note" />
     </node>
   </node>
   <node concept="1TIwiD" id="5kFZ$w2cwN_">
@@ -176,13 +187,36 @@
       <ref role="20lvS9" node="5kFZ$w2cwN_" resolve="SegmentDefinition" />
     </node>
   </node>
-  <node concept="Az7Fb" id="4OPM89OYN7T">
-    <property role="TrG5h" value="notes" />
-    <property role="FLfZY" value="([a-gA-G](?:b|#)?[0-9])+" />
-  </node>
   <node concept="Az7Fb" id="eR_204Hh_4">
     <property role="TrG5h" value="pattern" />
     <property role="FLfZY" value="[x_-]+" />
+  </node>
+  <node concept="Az7Fb" id="3Lzu1nYYIlS">
+    <property role="TrG5h" value="NoteType" />
+    <property role="FLfZY" value="([a-gA-G](?:b|#)?[0-9])" />
+  </node>
+  <node concept="AxPO7" id="3Lzu1nYZ0Zd">
+    <property role="TrG5h" value="Instrument" />
+    <property role="PDuV0" value="true" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="3Lzu1nYZ0Ze" role="M5hS2">
+      <property role="1uS6qo" value="guitar" />
+      <property role="1uS6qv" value="1" />
+    </node>
+    <node concept="M4N5e" id="3Lzu1nYZ13x" role="M5hS2">
+      <property role="1uS6qo" value="bass" />
+      <property role="1uS6qv" value="2" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3Lzu1nYZ13$">
+    <property role="EcuMT" value="4351453700837609700" />
+    <property role="TrG5h" value="Note" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3Lzu1nYZ13G" role="1TKVEl">
+      <property role="IQ2nx" value="4351453700837609708" />
+      <property role="TrG5h" value="note" />
+      <ref role="AX2Wp" node="3Lzu1nYYIlS" resolve="NoteType" />
+    </node>
   </node>
 </model>
 

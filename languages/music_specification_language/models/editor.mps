@@ -224,8 +224,9 @@
         <property role="3F0ifm" value=":" />
         <ref role="1k5W1q" node="4NDpzA$HM4j" resolve="Punctuation" />
       </node>
-      <node concept="3F0A7n" id="5kFZ$w2cT9H" role="3EZMnx">
-        <ref role="1NtTu8" to="d1ne:5kFZ$w2cwNs" resolve="notes" />
+      <node concept="3F2HdR" id="3Lzu1nYZ2AC" role="3EZMnx">
+        <ref role="1NtTu8" to="d1ne:3Lzu1nYZ13D" resolve="notes" />
+        <node concept="l2Vlx" id="3Lzu1nYZ2AE" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="5kFZ$w2cT6e" role="2iSdaV" />
     </node>
@@ -246,7 +247,7 @@
         <ref role="1k5W1q" node="4NDpzA$HM4j" resolve="Punctuation" />
       </node>
       <node concept="3F0A7n" id="4NDpzA$H4tZ" role="3EZMnx">
-        <ref role="1NtTu8" to="d1ne:4NDpzA$H4tn" resolve="instrument_source" />
+        <ref role="1NtTu8" to="d1ne:4NDpzA$H4tn" resolve="instrument" />
       </node>
     </node>
   </node>
@@ -351,6 +352,12 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3Lzu1nYZpri">
+    <ref role="1XX52x" to="d1ne:3Lzu1nYZ13$" resolve="Note" />
+    <node concept="3F0A7n" id="3Lzu1nYZprn" role="2wV5jI">
+      <ref role="1NtTu8" to="d1ne:3Lzu1nYZ13G" resolve="note" />
     </node>
   </node>
 </model>
