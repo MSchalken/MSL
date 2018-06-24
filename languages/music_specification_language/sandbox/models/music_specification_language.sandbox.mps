@@ -121,7 +121,7 @@
     <property role="1n6va9" value="240" />
     <node concept="1n6va4" id="eR_204Jrvu" role="1n6va0">
       <property role="TrG5h" value="piano" />
-      <property role="3Cni5I" value="0x18" />
+      <property role="3Cni5I" value="0x01" />
     </node>
     <node concept="1n6va7" id="eR_204Jrvv" role="1n6vad">
       <property role="TrG5h" value="verse1" />
