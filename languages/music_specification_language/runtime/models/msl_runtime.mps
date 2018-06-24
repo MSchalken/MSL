@@ -51,7 +51,7 @@
     </node>
     <node concept="1n6va4" id="5rR10FJr49e" role="1n6va0">
       <property role="TrG5h" value="Bass" />
-      <property role="3Cni5I" value="0x2B" />
+      <property role="3Cni5I" value="0x2b" />
     </node>
     <node concept="1n6va4" id="5rR10FJr49h" role="1n6va0">
       <property role="TrG5h" value="Flute" />
@@ -116,7 +116,7 @@
     <property role="1n6va9" value="120" />
     <node concept="1n6va4" id="5rR10FJr4ai" role="1n6va0">
       <property role="TrG5h" value="Piano" />
-      <property role="3Cni5I" value="0x18" />
+      <property role="3Cni5I" value="0x01" />
     </node>
     <node concept="1n6va7" id="5rR10FJr4aj" role="1n6vad">
       <property role="TrG5h" value="verse1" />
